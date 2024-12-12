@@ -69,7 +69,7 @@ extra:
    - linux-aarch64
    - osx-arm64 
 ```
-you must also bump the build number, and if the build section is missing a package versioning ('pin') line, you must add one to pass the linter.
+you must also bump the build number (eg. add 1 to the existing number), and if the build section is missing a package versioning ('pin') line, you must add one to pass the linter.
 
 ```
 build:
@@ -119,6 +119,6 @@ git checkout -b aarch64-fixes bot/bot-pr_arch_[TAB][TAB]
   git commit --all
   git push --set-upstream origin ...
   ```
-  - Create a new PR from your branch
+  - Create a new PR from your branch.
   - You need to ask the conda-forge bot to do some 'rerendering' which builds a ton of config files / scripts from that recipe  - add a comment to your PR of `@conda-forge-admin please rerender`. If you have edited anything, it doesn't harm.
   - Note things are very slow at the moment - it tries to build on linux-ppc64le and linux-aarch64 using emulation (!) or Travis's arm fleet which have been erroring. The platforms that are tried is set in the feedstock's conda-forge.yml file - if ppc64le is failing, you can remove the entry and just fix the linux-aarch64 one.
