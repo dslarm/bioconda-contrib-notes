@@ -58,6 +58,8 @@ build:
   noarch: generic
 ..
 ```
+If a generic package doesn't work - it's a dependency at fault - go fix that.  I've recently tried bumping the build number and doing a PR as I think generic packages are locked to versions they were built with - and if those were built before the linux-aarch64 support was added to a dependency, it might not be able to find it - so a rebuild can't harm.  I'll update this with the outcome.
+
 If a package is not generic - at some point it compiles native code, or uses binaries that it downloads (and usually for x86 only).  Examine the meta.yaml and the adjacent build.sh files.
 
 Normally, to enable it to try to build - add this section to the bottom of the meta.yaml:
