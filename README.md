@@ -33,8 +33,6 @@ A successful result is being able to type "conda install {package}" and get the 
     conda activate bioconda
     ```
 
-The packages we start with are in [bioconda-recipes](https://github.com/bioconda/bioconda-recipes). Lower-level dependencies may be churned up that are in conda-forge - see later.
-
 ## Enabling packages
 
 First check why your package doesn't install:
@@ -43,9 +41,9 @@ conda install {name}
 ```
 Either it says not found - so you need to fix that package - or it lists dependencies that are not found and you now have a list to go after. 
 
-Most packages we need to fix are in bioconda, but some are in conda-forge.  If there is a recipes/{package-name} subdirectory in bioconda-recipes, then this is a bioconda recipe.  All bioconda recipes are in the one github repository. 
+Most packages we need to fix are in bioconda, but some are in conda-forge.  If there is a recipes/{package-name} subdirectory in bioconda-recipes, then this is a bioconda recipe.  All bioconda recipes are in the one [github repository](https://github.com/bioconda/bioconda-recipes/)
 
-If the package is not a bioconda recipes, it will be a conda-forge recipe.  These are in individual github repositories of the conda-forge user.  They are of the form {package-name}-feedstock.
+If the package is not a bioconda recipe, it will be a conda-forge recipe. These are in individual github repositories (feedstocks) of the conda-forge user. They are of the form {package-name}-feedstock.
 
 ### Bioconda Recipes
 
