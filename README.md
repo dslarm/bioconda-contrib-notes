@@ -105,15 +105,18 @@ To fix a conda-forge package - say 'perl-nonsense'
 - If successful, the maintainer needs to merge it.  After a merge, you still need to wait a couple of days for the binary to be built and made available, and you should be able to do "conda install perl-nonsense".
   - If the maintainer is unresponsive after a few days, try "@conda-forge-admin, please ping team" and if there is no response in a week then I do "@conda-forge/core please help review and merge this PR" 
 - If the build was unsuccessful, you need to fix it:
-			- git clone git@github.com:{gitid}/perl-nonsense-feedstock.git
-			- cd perl-scalar-list-utils-feedstock
-			- git remote add bot  https://github.com/regro-cf-autotick-bot/perl-nonsense-feedstock
-			- git fetch bot
-			- git checkout -b aarch64-fixes bot/bot-pr_arch_[TAB][TAB]
-			Fix the problem in : edit meta.yaml or conda-forge.yml
-			- git commit --all
-			- git push --set-upstream origin ...
-			- create a new PR from your branch
-			 
-			- You likely need to ask the conda-forge bot to do some 'rerendering' which builds a ton of config files / scripts from that recipe  - add a comment to your PR of @conda-forge-admin please rerender   ..  If you have edited anything, it doesn't harm..
-  note things are very slow at the moment - it tries to build on linux-ppc64le and linux-aarch64 using emulation (!) or Travis's arm fleet which have been erroring.  This is set in the feedstock's conda-forge.yml file - if ppc64le is failing, you can remove the entry and just fix the linux-aarch64 one.
+```
+git clone git@github.com:{gitid}/perl-nonsense-feedstock.git
+cd perl-scalar-list-utils-feedstock
+git remote add bot  https://github.com/regro-cf-autotick-bot/perl-nonsense-feedstock
+git fetch bot
+git checkout -b aarch64-fixes bot/bot-pr_arch_[TAB][TAB]
+```
+  - Fix the problem in : edit meta.yaml or conda-forge.yml
+  ```
+  git commit --all
+  git push --set-upstream origin ...
+  ```
+  - Create a new PR from your branch
+  - You need to ask the conda-forge bot to do some 'rerendering' which builds a ton of config files / scripts from that recipe  - add a comment to your PR of `@conda-forge-admin please rerender`. If you have edited anything, it doesn't harm.
+  - Note things are very slow at the moment - it tries to build on linux-ppc64le and linux-aarch64 using emulation (!) or Travis's arm fleet which have been erroring. The platforms that are tried is set in the feedstock's conda-forge.yml file - if ppc64le is failing, you can remove the entry and just fix the linux-aarch64 one.
