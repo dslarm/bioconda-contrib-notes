@@ -115,7 +115,7 @@ git checkout -b aarch64-fixes bot/bot-pr_arch_[TAB][TAB]
   - Fix the problem in : edit meta.yaml or conda-forge.yml
   ```
   git commit --all
-  git push --set-upstream origin ...
+  git push --set-upstream origin aarch64-fixes
   ```
   - Create a new PR from your branch.
   - You need to ask the conda-forge bot to do some 'rerendering' which builds a ton of config files / scripts from that recipe  - add a comment to your PR of `@conda-forge-admin please rerender`. If you have edited anything, it doesn't harm.
