@@ -106,7 +106,7 @@ To fix a conda-forge package - say 'perl-nonsense'
   - If the maintainer is unresponsive after a few days, try "@conda-forge-admin, please ping team" and if there is no response in a week then I do "@conda-forge/core please help review and merge this PR" 
 - If the build was unsuccessful, you need to fix it:
 ```
-git clone git@github.com:regro-cf-autotick-bot/perl-nonsense-feedstock.git
+git clone git@github.com:{your-git-id}/perl-nonsense-feedstock.git
 cd perl-nonsense-feedstock
 git remote add bot  https://github.com/regro-cf-autotick-bot/perl-nonsense-feedstock
 git fetch bot
