@@ -83,7 +83,10 @@ You are now ready to try it in the CI.  Open a Pull Request.  Watch the CI and r
 - If you need to patch a source file - meta.yaml can handle patches.
 - Most recipes have a build.sh - which builds things and can do bash logic to choose different paths for different platforms.  CFLAGS and CC etc are set before it runs this script - use those, not the system's gcc.  ${PREFIX} is the directory base things are built from - with a bin, lib and include containing all the dependencies specified in meta.yaml
 - In the CI output, you'll likely notice that conda packages basically build and run in their own world of lib and bin subdirectories containing everything that they need. You'll see mad looking directories "placehold_....." - which are just it creating an environment to isolate itself in for build, and another for test.    
-- Once your recipe is good to go, green tick in PR list in github - add this comment to the PR : @BiocondaBot please add label
+- Once your recipe is good to go, green tick in PR list in github - add this comment to the PR :
+- ```
+  @BiocondaBot please add label
+  ```
 You can also build and test packages locally to be a bit quicker - it's not 100% reliable to track errors, although the container approach probably is.  See [bioconda dev instructions](https://bioconda.github.io/contributor/building-locally.html).
 
 If you want to build outside of the docker container (the containers often have UID and permission errors for me, YMMV)
