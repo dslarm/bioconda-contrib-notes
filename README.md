@@ -128,3 +128,4 @@ git checkout -b aarch64-fixes bot/bot-pr_arch_[TAB][TAB]
   - Create a new PR from your branch.
   - You need to ask the conda-forge bot to do some 'rerendering' which builds a ton of config files / scripts from that recipe  - add a comment to your PR of `@conda-forge-admin please rerender`. If you have edited anything, it doesn't harm.
   - Note things are very slow at the moment - it tries to build on linux-ppc64le and linux-aarch64 using emulation (!) or Travis's arm fleet which have been erroring. The platforms that are tried is set in the feedstock's conda-forge.yml file - if ppc64le is failing, you can remove the entry and just fix the linux-aarch64 one.
+  - Conda's `build_locally.py` (in every feedstock's root) does actually work, use that to test before commits.
