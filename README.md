@@ -1,4 +1,3 @@
-
 # Notes on bioconda recipe porting
 
 ## About bioconda?
@@ -87,12 +86,17 @@ You are now ready to try it in the CI.  Open a Pull Request.  Watch the CI and r
 - ```
   @BiocondaBot please add label
   ```
-You can also build and test packages locally to be a bit quicker - it's not 100% reliable to track errors, although the container approach probably is.  See [bioconda dev instructions](https://bioconda.github.io/contributor/building-locally.html).
+You can also build and test packages locally to be a bit quicker - it's not 100% reliable to track errors if you do it outside of the container images, although the container approach is.  See [bioconda dev instructions](https://bioconda.github.io/contributor/building-locally.html).
 
-If you want to build outside of the docker container (the containers often have UID and permission errors for me, YMMV)
+If you want to build outside of the docker container (the containers require (a) ensure you have the real docker and not podman due to incompatibility with podman's permissions, (b) you will need to specify the image to build in as the bioconda-utils tries to use the amd64 qemu'd version not the aarch64 native as a command line)
 ```
 bioconda-utils build --packages {package}
 ```
+or to build inside a container:
+```
+bioconda-utils build  --docker --mulled-test --force  --docker-base-image quay.io/bioconda/bioconda-utils-build-env-cos7-aarch64:3.3.2 --git-range master
+```
+the latter is the most reliable.
 
 ### Conda Forge
 
