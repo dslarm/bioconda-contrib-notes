@@ -14,8 +14,8 @@ A successful result is being able to type "conda install {package}" and get the 
   - Install Conda: NB:  say yes at the end to get it set things up when you login next time.
 
     ```
-    wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-aarch64.sh
-    sh ./Miniforge3-Linux-aarch64.sh
+    wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-$(arch).sh
+    sh ./Miniforge3-Linux-$(arch).sh
     ```
     
   - Install bioconda
