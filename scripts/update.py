@@ -43,5 +43,4 @@ with open(filename, 'r') as f:
 
     for field in ['osx-arm64', 'linux-aarch64', 'linux-64', 'osx-64', 'noarch']:
         plt.plot(range(0, len(data['date']))[-MAX_PLOTS:], data[f'{field}_MA{MAA}'][-MAX_PLOTS:])
-    plt.show()
-
+    plt.savefig('../downloads.png')
