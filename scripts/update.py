@@ -48,6 +48,6 @@ with open(filename, 'r') as f:
 
     x_labels = data['date'][-MAX_PLOTS::60]
     plt.xticks(data['date'][-MAX_PLOTS::60], x_labels)
-    plt.legend(loc="lower left")
+    plt.legend(loc="upper left")
 #    plt.show()
     plt.savefig('../downloads.png')
