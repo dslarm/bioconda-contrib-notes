@@ -40,7 +40,7 @@ with open(filename, 'r') as f:
             else:
                 data[f'{field}_MA{MAA}'].append(data[field])
 
-    plt.title("Rolling average of daily downloads by architecture, last 200 days")
+    plt.title(f"Rolling average of daily downloads by architecture, last 200 days to {data['date'][-1:][0]}")
     plt.xlabel("Date")
     plt.ylabel("Downloads")
     for field in ['osx-arm64', 'linux-aarch64', 'linux-64', 'osx-64', 'noarch']:
