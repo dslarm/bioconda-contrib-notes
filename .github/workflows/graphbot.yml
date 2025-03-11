@@ -53,5 +53,4 @@ jobs:
 
       - name: purge images
         run: |
-          curl -w "\n" -s -X PURGE https://github.com/dslarm/bioconda-contrib-notes/downloads.png?
-          curl -w "\n" -s -X PURGE https://github.com/dslarm/bioconda-contrib-notes
+          curl -w "\n" -s -X PURGE https://raw.githubusercontent.com/dslarm/bioconda-contrib-notes/main/downloads.png
