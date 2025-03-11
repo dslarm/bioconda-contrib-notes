@@ -2,7 +2,7 @@
 # Downloads by architecture - rolling average
 
 This data is generated nightly from [bioconda-stats](https://github.com/bioconda/bioconda-stats)
-![14 day rolling average of downloads](./downloads.png?)
+![14 day rolling average of downloads](./downloads.png)
 
 
 # Notes on bioconda recipe porting
