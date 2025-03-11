@@ -40,6 +40,16 @@ jobs:
       - name: late pwd
         run: pwd
 
+      - uses: actions/checkout@v4
+      - run: |
+          pwd
+          ls -lR $GITHUB_WORKSPACE
+          cp downloads.png $GITHUB_WORKSPACE/downloads.png
+          git config user.name github-action
+          git config user.email noreply@github.com
+          git add downloads.png
+          git commit -m 'update front image'
+          git push
 
       # Runs a set of commands using the runners shell
       - uses: actions/upload-artifact@v4
@@ -51,13 +61,3 @@ jobs:
       - name: late pwd 2
         run: pwd
 
-      - uses: actions/checkout@v4
-      - run: |
-          pwd
-          ls -lR ..
-          cp downloads.png $GITHUB_WORKSPACE/downloads.png
-          git config user.name github-action
-          git config user.email noreply@github.com
-          git add downloads.png
-          git commit -m 'update front image'
-          git push
