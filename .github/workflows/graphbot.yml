@@ -40,6 +40,12 @@ jobs:
           name: downloads.png
           path: downloads.png
           compression-level: 0
-          
-          
-      
+
+      - uses: actions/checkout@v4
+      - run: |
+          cd $GITHUB_WORKSPACE
+	  git config user.name github-action
+	  git config user.email noreply@github.com
+	  git add downloads.png
+	  git commit -m 'update front image'
+      	  git push
