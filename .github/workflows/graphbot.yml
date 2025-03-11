@@ -30,15 +30,15 @@ jobs:
       - name: pip installs
         run: pip install matplotlib
 
-      - name: early pwd
-        run: pwd
-
       # Runs a single command using the runners shell
       - name: process the bioconda-stats
-        run: python $GITHUB_WORKSPACE/scripts/update.py
+        run: |
+          pwd
+          python $GITHUB_WORKSPACE/scripts/update.py
+          ls -lR ..
 
       - name: late pwd
-        run: pwd
+        run: pwd 
 
       - name: commit all..
       - run: |
