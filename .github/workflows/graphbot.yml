@@ -44,7 +44,7 @@ jobs:
       - uses: actions/checkout@v4
       - run: |
           pwd
-          ls
+          ls -lR
           cp downloads.png $GITHUB_WORKSPACE/downloads.png
           git config user.name github-action
           git config user.email noreply@github.com
