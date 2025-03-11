@@ -37,8 +37,8 @@ jobs:
 
       - name: commit all..
         run: |
-          git config user.name github-action
-          git config user.email noreply@github.com
+          git config user.name github-actions
+          git config user.email github-actions@github.com
           git add downloads.png
           git commit -m 'update front image'
           git push
