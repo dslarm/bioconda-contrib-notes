@@ -41,7 +41,7 @@ jobs:
         run: pwd 
 
       - name: commit all..
-      - run: |
+        run: |
           pwd
           ls -lR $GITHUB_WORKSPACE
           cp downloads.png $GITHUB_WORKSPACE/downloads.png
