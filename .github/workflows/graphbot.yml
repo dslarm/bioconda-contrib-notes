@@ -35,7 +35,9 @@ jobs:
         run: python $GITHUB_WORKSPACE/scripts/update.py
 
       # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+      - uses: actions/upload-artifact@v4
+        with:
+          name: downloads.png
+          path: downloads.png
+          
+      
