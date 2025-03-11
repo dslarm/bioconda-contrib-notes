@@ -33,18 +33,10 @@ jobs:
       # Runs a single command using the runners shell
       - name: process the bioconda-stats
         run: |
-          pwd
           python $GITHUB_WORKSPACE/scripts/update.py
-          ls -lR ..
-
-      - name: late pwd
-        run: pwd 
 
       - name: commit all..
         run: |
-          pwd
-          ls -lR $GITHUB_WORKSPACE
-          cp downloads.png $GITHUB_WORKSPACE/downloads.png
           git config user.name github-action
           git config user.email noreply@github.com
           git add downloads.png
@@ -58,6 +50,4 @@ jobs:
           path: downloads.png
           compression-level: 0
 
-      - name: late pwd 2
-        run: pwd
 
