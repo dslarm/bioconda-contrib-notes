@@ -40,7 +40,7 @@ jobs:
       - name: late pwd
         run: pwd
 
-      - uses: actions/checkout@v4
+      - name: commit all..
       - run: |
           pwd
           ls -lR $GITHUB_WORKSPACE
