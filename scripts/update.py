@@ -40,7 +40,11 @@ with open(filename, 'r') as f:
             else:
                 data[f'{field}_MA{MAA}'].append(data[field])
 
-
+    plt.title("Rolling average of daily downloads by architecture, last 200 days")
+    plt.xlabel("Day")
+    plt.ylabel("Downloads")
     for field in ['osx-arm64', 'linux-aarch64', 'linux-64', 'osx-64', 'noarch']:
-        plt.plot(range(0, len(data['date']))[-MAX_PLOTS:], data[f'{field}_MA{MAA}'][-MAX_PLOTS:])
+        plt.plot(range(0, len(data['date']))[-MAX_PLOTS:], data[f'{field}_MA{MAA}'][-MAX_PLOTS:], label=f'{field}')
+
+    
     plt.savefig('../downloads.png')
