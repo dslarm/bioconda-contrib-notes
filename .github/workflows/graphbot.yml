@@ -46,7 +46,7 @@ jobs:
           pwd
           ls
           cp downloads.png $GITHUB_WORKSPACE/downloads.png
-	  git config user.name github-action
+          git config user.name github-action
           git config user.email noreply@github.com
           git add downloads.png
           git commit -m 'update front image'
