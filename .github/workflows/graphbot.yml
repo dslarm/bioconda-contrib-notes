@@ -39,5 +39,7 @@ jobs:
         with:
           name: downloads.png
           path: downloads.png
+          compression-level: 0
+          
           
       
