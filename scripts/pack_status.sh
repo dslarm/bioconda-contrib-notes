@@ -5,6 +5,8 @@ if [ $1 ]; then
     FILE=$1
     sort -k2 -r -g $FILE > $FILE.sorted
 else
+    DIR=`mktemp -d conda-stats`
+    cd $DIR
     d=`date  '+%Y-%m-%d'`
     Y=`date '+%Y'`
     M=`date '+%m'`
