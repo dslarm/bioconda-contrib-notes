@@ -1,13 +1,28 @@
 #!/bin/sh
-d=`date  '+%Y-%m-%d'`
+
+exit 1
 if [ $1 ]; then
     FILE=$1
     sort -k2 -r -g $FILE > $FILE.sorted
 else
-    FILE=packages.$d.tsv
-    wget - https://raw.githubusercontent.com/bioconda/bioconda-stats/data/package-downloads/anaconda.org/bioconda/packages.tsv -O $FILE
-    tail -n+2 $FILE |sort -k2 -r -g > $FILE.sorted
+    d=`date  '+%Y-%m-%d'`
+    Y=`date '+%Y'`
+    M=`date '+%m'`
+    revstring1="$d"
+    revstring2="$(($Y-1))-$M-01"
+    file1=pack-$revstring1.tsv
+    file2=pack-$revstring2.tsv
+    git clone https://github.com/bioconda/bioconda-stats
+    cd bioconda-stats
+    git checkout `git rev-list -n 1 --first-parent --before="$revstring1" data`
+    sort -k1 -t, package-downloads/anaconda.org/bioconda/packages.tsv > $file1
+    git checkout `git rev-list -n 1 --first-parent --before="$revstring2" data`
+    sort -k1 -t,  package-downloads/anaconda.org/bioconda/packages.tsv > $file2
+
+    join -a 1 -t, $file1 $file2 | awk '{print($1,$2-$3)}' | sort -k2 -g > $file1.sorted
+    
 fi    
+
 rm packages.log.$d
 c=0
 while read -r line; do
