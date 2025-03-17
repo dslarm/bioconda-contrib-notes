@@ -37,9 +37,9 @@ while read -r line; do
 	conda install -d $package >> packages.log.$d 2>&1
 	ERR=$?
 	if [ $ERR = 1 ] ; then
-		echo FAILED at $c with $line
+		echo FAILED at $c with $line | tee -a pack-status-$file1
 	else
-		echo SUCCEEDED with $line
+		echo SUCCEEDED with $line| tee -a pack-status-$file1
 	fi
 	
 done < $FILE.sorted
