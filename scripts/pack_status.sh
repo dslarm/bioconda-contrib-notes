@@ -18,9 +18,9 @@ else
     git clone https://github.com/bioconda/bioconda-stats
     cd bioconda-stats
     git checkout data
-    git checkout `git rev-list -n 1 --first-parent --before="$revstring1"`
+    git checkout `git rev-list -n 1 --first-parent --before="$revstring1" --branches data`
     sort -k1 -t, package-downloads/anaconda.org/bioconda/packages.tsv > $file1
-    git checkout `git rev-list -n 1 --first-parent --before="$revstring2"`
+    git checkout `git rev-list -n 1 --first-parent --before="$revstring2" --branches data`
     sort -k1 -t,  package-downloads/anaconda.org/bioconda/packages.tsv > $file2
 
     join -a 1 -t, $file1 $file2 | awk '{print($1,$2-$3)}' | sort -k2 -g > $file1.sorted
