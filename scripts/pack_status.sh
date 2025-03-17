@@ -1,6 +1,6 @@
 #!/bin/sh
 
-exit 1
+
 if [ $1 ]; then
     FILE=$1
     sort -k2 -r -g $FILE > $FILE.sorted
