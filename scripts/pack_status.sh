@@ -20,7 +20,7 @@ else
     sort -k1 -t,  package-downloads/anaconda.org/bioconda/packages.tsv > $file2
 
     join -a 1 -t, $file1 $file2 | awk '{print($1,$2-$3)}' | sort -k2 -g > $file1.sorted
-    FILE=$file1.sorted
+    FILE=$file1
 fi    
 
 rm packages.log.$d
