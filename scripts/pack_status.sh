@@ -27,6 +27,7 @@ fi
 
 rm packages.log.$d
 c=0
+echo $PWD
 while read -r line; do
 	c=$((c+1))
 	package=`echo $line  | cut -f 1 -d' '`
