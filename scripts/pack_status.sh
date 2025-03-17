@@ -1,10 +1,12 @@
 #!/bin/sh
 
+ORIG=$PWD
+
 if [ $1 ]; then
     FILE=$1
     sort -k2 -r -g $FILE > $FILE.sorted
 else
-    DIR=`mktemp -d conda-stats-XXXX`
+    DIR=`mktemp -d /tmp/conda-stats-XXXX`
     cd $DIR
     d=`date  '+%Y-%m-%d'`
     Y=`date '+%Y'`
@@ -35,9 +37,9 @@ while read -r line; do
 	conda install -d $package >> packages.log.$d 2>&1
 	ERR=$?
 	if [ $ERR = 1 ] ; then
-		echo FAILED at $c with $line | tee -a pack-status-$file1
+		echo FAILED at $c with $line | tee -a $ORIG/pack-status-$file1
 	else
-		echo SUCCEEDED with $line| tee -a pack-status-$file1
+		echo SUCCEEDED with $line| tee -a $ORIG/pack-status-$file1
 	fi
 	
 done < $FILE.sorted
