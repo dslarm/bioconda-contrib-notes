@@ -1,5 +1,6 @@
 #!/bin/sh
-
+set -e
+set -x
 
 if [ $1 ]; then
     FILE=$1
@@ -16,9 +17,10 @@ else
     file2=pack-$revstring2.tsv
     git clone https://github.com/bioconda/bioconda-stats
     cd bioconda-stats
-    git checkout `git rev-list -n 1 --first-parent --before="$revstring1" data`
+    git checkout data
+    git checkout `git rev-list -n 1 --first-parent --before="$revstring1"`
     sort -k1 -t, package-downloads/anaconda.org/bioconda/packages.tsv > $file1
-    git checkout `git rev-list -n 1 --first-parent --before="$revstring2" data`
+    git checkout `git rev-list -n 1 --first-parent --before="$revstring2"`
     sort -k1 -t,  package-downloads/anaconda.org/bioconda/packages.tsv > $file2
 
     join -a 1 -t, $file1 $file2 | awk '{print($1,$2-$3)}' | sort -k2 -g > $file1.sorted
