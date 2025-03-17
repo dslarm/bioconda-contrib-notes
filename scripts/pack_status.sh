@@ -27,7 +27,8 @@ else
     FILE=$file1
 fi    
 
-rm packages.log.$d
+rm -f packages.log.$d
+
 c=0
 echo $PWD
 while read -r line; do
