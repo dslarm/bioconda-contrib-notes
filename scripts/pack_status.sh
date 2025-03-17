@@ -1,6 +1,4 @@
 #!/bin/sh
-set -e
-set -x
 
 if [ $1 ]; then
     FILE=$1
