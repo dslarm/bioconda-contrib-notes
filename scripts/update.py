@@ -31,16 +31,19 @@ with open(filename, 'r') as f:
     for field in fields:
         if field != 'date':
             data[f'{field}_MA{MAA}'] = [0] * MAA
+            data[f'{field}_MA{MAA}_percent'] = [0] * MAA
         else:
             data[f'{field}_MA{MAA}'] = data['date'][0:MAA]
 
         for i in range(0, len(data[field]) - MAA):
             if field != 'date':
                 data[f'{field}_MA{MAA}'].append((data[field][i+MAA] - data[field][i])/MAA)
+                data[f'{field}_MA{MAA}_percent'].append(data[f'{field}_MA{MAA}'][-1] / ((data['total'][i+MAA] - data['total'][i])/MAA)*100.0)
             else:
                 data[f'{field}_MA{MAA}'].append(data[field])
 
-    plt.title(f"Rolling average daily downloads - 200 days to {data['date'][-1:][0]}")
+    plt.suptitle(f"Daily downloads")
+    plt.title(f'{MAA}-day moving average - 200 days to {data['date'][-1:][0]
     plt.xlabel("Date")
     plt.ylabel("Downloads")
     for field in ['osx-arm64', 'linux-aarch64', 'linux-64', 'osx-64', 'noarch']:
@@ -50,4 +53,24 @@ with open(filename, 'r') as f:
     plt.xticks(data['date'][-MAX_PLOTS::60], x_labels)
     plt.legend(loc="upper left")
 #    plt.show()
+    plt.axhline()
+    plt.grid()
     plt.savefig('../downloads.png')
+
+    +    plt.figure(2)
+    
+    plt.suptitle(f"Percentage share of daily downloads")
+    plt.title(f'{MAA}-day moving average - 200 days to {data['date'][-1:][0]}')
+    plt.xlabel("Date")
+    plt.ylabel("Percent of all downloads")
+    for field in ['osx-arm64', 'linux-aarch64', 'linux-64', 'osx-64', 'noarch']:
+        plt.plot(data['date'][-MAX_PLOTS:], data[f'{field}_MA{MAA}_percent'][-MAX_PLOTS:], label=f'{field}')
+
+    x_labels = data['date'][-MAX_PLOTS::60]
+    plt.xticks(data['date'][-MAX_PLOTS::60], x_labels)
+    plt.legend(loc="upper left")
+    plt.axhline()
+    plt.grid()
+    #    plt.show()
+    plt.savefig('../percents.png')
+
