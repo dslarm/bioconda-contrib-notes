@@ -40,6 +40,7 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add downloads.png
+          git add percents.png
           git commit -m 'update front image'
           git push
 
@@ -49,8 +50,4 @@ jobs:
           name: downloads.png
           path: downloads.png
           compression-level: 0
-
-
-      - name: purge images
-        run: |
-          curl -w "\n" -s -X PURGE https://raw.githubusercontent.com/dslarm/bioconda-contrib-notes/main/downloads.png
+          
