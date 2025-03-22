@@ -43,7 +43,7 @@ with open(filename, 'r') as f:
                 data[f'{field}_MA{MAA}'].append(data[field])
 
     plt.suptitle(f"Daily downloads")
-    plt.title(f'{MAA}-day moving average - 200 days to {data['date'][-1:][0]
+    plt.title(f'{MAA}-day moving average - 200 days to {data['date'][-1:][0]}')
     plt.xlabel("Date")
     plt.ylabel("Downloads")
     for field in ['osx-arm64', 'linux-aarch64', 'linux-64', 'osx-64', 'noarch']:
