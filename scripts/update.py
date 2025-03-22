@@ -57,7 +57,7 @@ with open(filename, 'r') as f:
     plt.grid()
     plt.savefig('../downloads.png')
 
-    +    plt.figure(2)
+    plt.figure(2)
     
     plt.suptitle(f"Percentage share of daily downloads")
     plt.title(f'{MAA}-day moving average - 200 days to {data['date'][-1:][0]}')
