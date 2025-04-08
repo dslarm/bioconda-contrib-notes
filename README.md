@@ -28,7 +28,7 @@ A successful result is being able to type "conda install {package}" and get the 
 
     ```
     wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-$(arch).sh
-    sh ./Miniforge3-Linux-$(arch).sh -b
+    sh ./Miniforge3-Linux-$(arch).sh
     ```
     
   - Install bioconda
