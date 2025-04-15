@@ -1,0 +1,56 @@
+# This is a basic workflow to help you get started with Actions
+
+name: packbot
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  # push:
+  #   branches: [ "main" ]
+  # pull_request:
+  #   branches: [ "main" ]
+  # schedule:
+  # - cron: "0 4 * * *"  
+  
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  graph:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-24.04-arm
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+
+      - name: pip installs
+        run: pip install beautifulsoup4
+
+      # Runs the magic
+      - name: process the bioconda-stats
+        run: |
+          python $GITHUB_WORKSPACE/scripts/wavetool.py
+
+      - name: commit all..
+        run: |
+          pwd
+          git diff
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add output.txt
+          git add output.json
+          sum downloads.png percents.png
+          git commit -m 'update package info'
+          git push
+
+      # Runs a set of commands using the runners shell
+      # - uses: actions/upload-artifact@v4
+      #   with:
+      #     name: downloads.png
+      #     path: downloads.png
+      #     compression-level: 0
+          
