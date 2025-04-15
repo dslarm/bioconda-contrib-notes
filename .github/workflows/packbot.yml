@@ -18,7 +18,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  graph:
+  analyze:
     # The type of runner that the job will run on
     runs-on: ubuntu-24.04-arm
 
@@ -30,20 +30,19 @@ jobs:
       - name: pip installs
         run: pip install beautifulsoup4
 
-      # Runs the magic
-      - name: process the bioconda-stats
+      # Execture the script
+      - name: execute the script
         run: |
           python $GITHUB_WORKSPACE/scripts/wavetool.py
 
-      - name: commit all..
+      - name: save output
         run: |
           pwd
           git diff
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add output.txt
-          git add output.json
-          sum downloads.png percents.png
+          git add wave_missing.txt
+          git add wave_missing.json
           git commit -m 'update package info'
           git push
 
