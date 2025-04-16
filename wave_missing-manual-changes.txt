@@ -1,4 +1,4 @@
-Missing packages: 63
+Missing packages: 62
 Incomplete pipelines: 26 of 61
 
 PIPELINES SUMMARY:
@@ -11,7 +11,7 @@ PIPELINES SUMMARY:
 016_raredisease.yaml : ['bioconda::bwa-meme', 'bioconda::eklipse', 'bioconda::hmtnote']
 017_cutandrun.yaml : ['bioconda::dask', 'bioconda::seaborn']
 018_pangenome.yaml : ['bioconda::odgi', 'bioconda::pggb', 'bioconda::smoothxg']
-020_funcscan.yaml : ['bioconda::amplify', 'bioconda::antismash-lite', 'bioconda::deeparg', 'bioconda::deepbgc', 'bioconda::fargene', 'bioconda::interproscan', 'bioconda::macrel', 'bioconda::rgi']
+020_funcscan.yaml : ['bioconda::amplify', 'bioconda::antismash-lite', 'bioconda::deeparg', 'bioconda::deepbgc', 'bioconda::fargene', 'bioconda::interproscan', 'bioconda::macrel']
 023_bacass.yaml : ['bioconda::busco', 'bioconda::dfast', 'bioconda::dragonflye', 'bioconda::medaka', 'bioconda::nanopolish', 'bioconda::sepp']
 028_spatialvi.yaml : ['bioconda::gcc', 'bioconda::gxx', 'bioconda::imagecodecs', 'bioconda::jupyter', 'bioconda::leidenalg', 'bioconda::libgdal', 'bioconda::papermill']
 031_circrna.yaml : ['bioconda::find_circ', 'bioconda::mapsplice']
@@ -84,7 +84,6 @@ bioconda::pggb : ['018_pangenome.yaml']
 bioconda::piranha : ['054_clipseq.yaml']
 bioconda::pureclip : ['054_clipseq.yaml']
 bioconda::r-pathosurveilr : ['067_pathogensurveillance.yaml']
-bioconda::rgi : ['020_funcscan.yaml']
 bioconda::seaborn : ['017_cutandrun.yaml']
 bioconda::sepp : ['023_bacass.yaml']
 bioconda::sequencetools : ['010_eager.yaml']
