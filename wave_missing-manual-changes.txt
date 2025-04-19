@@ -1,5 +1,5 @@
-Missing packages: 62
-Incomplete pipelines: 26 of 61
+Missing packages: 61
+Incomplete pipelines: 25 of 61
 
 PIPELINES SUMMARY:
 
@@ -12,12 +12,11 @@ PIPELINES SUMMARY:
 017_cutandrun.yaml : ['bioconda::dask', 'bioconda::seaborn']
 018_pangenome.yaml : ['bioconda::odgi', 'bioconda::pggb', 'bioconda::smoothxg']
 020_funcscan.yaml : ['bioconda::amplify', 'bioconda::antismash-lite', 'bioconda::deeparg', 'bioconda::deepbgc', 'bioconda::fargene', 'bioconda::interproscan', 'bioconda::macrel']
-023_bacass.yaml : ['bioconda::busco', 'bioconda::dfast', 'bioconda::dragonflye', 'bioconda::medaka', 'bioconda::nanopolish', 'bioconda::sepp']
+023_bacass.yaml : ['bioconda::busco', 'bioconda::dfast', 'bioconda::dragonflye', 'bioconda::nanopolish', 'bioconda::sepp']
 028_spatialvi.yaml : ['bioconda::gcc', 'bioconda::gxx', 'bioconda::imagecodecs', 'bioconda::jupyter', 'bioconda::leidenalg', 'bioconda::libgdal', 'bioconda::papermill']
 031_circrna.yaml : ['bioconda::find_circ', 'bioconda::mapsplice']
 033_epitopeprediction.yaml : ['bioconda::epytope', 'bioconda::mhcflurry', 'bioconda::mhcnuggets']
 035_rnavar.yaml : ['bioconda::gcnvkernel']
-036_crisprseq.yaml : ['bioconda::medaka']
 037_proteomicslfq.yaml : ['openms::openms']
 038_mhcquant.yaml : ['bioconda::openms', 'bioconda::openms-thirdparty']
 039_lncpipe.yaml : ['bioconda::cufflinks', 'bioconda::pandoc']
@@ -26,7 +25,7 @@ PIPELINES SUMMARY:
 054_clipseq.yaml : ['bioconda::piranha', 'bioconda::pureclip']
 058_nascent.yaml : ['bioconda::bioinfoorphanage-grohmm', 'bioconda::dragmap']
 059_phaseimpute.yaml : ['bioconda::glimpse-bio', 'bioconda::shapeit5']
-062_genomeassembler.yaml : ['bioconda::busco', 'bioconda::lima', 'bioconda::medaka', 'conda-forge::quarto']
+062_genomeassembler.yaml : ['bioconda::busco', 'bioconda::lima', 'conda-forge::quarto']
 065_diaproteomics.yaml : ['bioconda::easypqp', 'bioconda::openms-thirdparty']
 067_pathogensurveillance.yaml : ['bioconda::busco', 'bioconda::gcnvkernel', 'bioconda::r-pathosurveilr',  'conda-forge::quarto']
 
@@ -71,7 +70,6 @@ bioconda::libgdal : ['028_spatialvi.yaml']
 bioconda::lima : ['062_genomeassembler.yaml', '041_isoseq.yaml']
 bioconda::macrel : ['020_funcscan.yaml']
 bioconda::mapsplice : ['031_circrna.yaml']
-bioconda::medaka : ['062_genomeassembler.yaml', '023_bacass.yaml', '036_crisprseq.yaml']
 bioconda::mhcflurry : ['033_epitopeprediction.yaml']
 bioconda::mhcnuggets : ['033_epitopeprediction.yaml']
 bioconda::nanopolish : ['023_bacass.yaml']
