@@ -23,7 +23,7 @@ else
     git checkout `git rev-list -n 1 --first-parent --before="$revstring2" --branches data`
     awk '{print ($1 "," $2)}' package-downloads/anaconda.org/bioconda/packages.tsv      | sort -k1 -g -t, > $file2
 
-    join -a 1 -t, $file1 $file2 | awk '{print($1,$2-$3)}' | sort -k2 -g -r > $file1.sorted
+    join -a 1 -t, $file1 $file2 | awk '{print($1,$2-$3)}' | sort -k2 -g > $file1.sorted
     FILE=$file1
 fi    
 
