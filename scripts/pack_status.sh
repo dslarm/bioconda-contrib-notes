@@ -33,7 +33,7 @@ c=0
 echo $PWD
 while read -r line; do
 	c=$((c+1))
-	package=`echo $line  | cut -f 1 -d' '`
+	package=`echo $line  | cut -f 1 -d','`
 	conda install -d $package >> packages.log.$d 2>&1
 	ERR=$?
 	if [ $ERR = 1 ] ; then
