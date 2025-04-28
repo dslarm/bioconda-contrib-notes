@@ -1,5 +1,5 @@
 #!/bin/sh
-
+export LANG=en_EN
 ORIG=$PWD
 
 if [ $1 ]; then
