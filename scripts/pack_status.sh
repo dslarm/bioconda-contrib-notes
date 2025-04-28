@@ -27,7 +27,7 @@ else
     FILE=$file1
 fi    
 
-if [[ "$TEST" == "1" ]]; exit 1 ; fi
+if [[ "$TEST" == "1" ]]; then exit 1 ; fi
 
 rm -f packages.log.$d
 
