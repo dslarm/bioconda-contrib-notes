@@ -26,7 +26,7 @@ else
     awk '{print ($1 "," $2)}' package-downloads/anaconda.org/bioconda/packages.tsv      | sort -k1 -t, > $file2
 
     join -a 1 -t, $file1 $file2 | awk -F , '{print($1 ", " $2-$3)}' | sort -t, -k2 -g -r > $file1.sorted
-    FILE=$file1.sorted
+    FILE=$file1
 fi    
 
 if [[ "$TEST" == "1" ]]; then exit 1 ; fi
