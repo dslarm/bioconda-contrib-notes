@@ -87,6 +87,7 @@ for i in sys.argv[1:]:
                            print(f'making new recipe {i}')                           
                            subprocess.run(['git','checkout','-b', f'{i}-{"aarch64" if not has_aarch64 else "osx-arm64"}'])
                            subprocess.run(['git','checkout', f'{i}-{"aarch64" if not has_aarch64 else "osx-arm64"}'])
+                           subprocess.run(['git', 'pull'])
                            print(f'subprocess ..')                           
                            with open(f'recipes/{i}/meta.yaml', 'w') as f:
                                     f.write(cont)
