@@ -28,7 +28,7 @@ for i in sys.argv[1:]:
         continue
             
     if sys.platform == 'linux':
-        r = subprocess.run(['bioconda-utils', 'build', '--docker', '--mulled-test','--docker-base-image quay.io/bioconda/bioconda-utils-build-env-cos7-aarch64:3.3.2','--packages', i])
+        r = subprocess.run(['bioconda-utils', 'build', '--docker', '--mulled-test','--docker-base-image', 'quay.io/bioconda/bioconda-utils-build-env-cos7-aarch64:3.3.2','--packages', i])
     else:
         r = subprocess.run(['bioconda-utils','build', '--packages', i])
     if not r.returncode:
