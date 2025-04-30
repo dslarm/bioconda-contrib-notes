@@ -4,7 +4,7 @@ ORIG=$PWD
 
 if [ $1 ]; then
     FILE=$1
-    sort -k2 -r -g $FILE > $FILE.sorted
+    d=now
 else
     DIR=`mktemp -d /tmp/conda-stats-XXXX`
     echo $DIR
@@ -25,7 +25,7 @@ else
     awk '{print ($1 "," $2)}' package-downloads/anaconda.org/bioconda/packages.tsv      | sort -k1 -t, > $file2
 
     join -a 1 -t, $file1 $file2 | awk -F , '{print($1 ", " $2-$3)}' | sort -t, -k2 -g -r > $file1.sorted
-    FILE=$file1
+    FILE=$file1.sorted
 fi    
 
 if [[ "$TEST" == "1" ]]; then exit 1 ; fi
@@ -45,5 +45,4 @@ while read -r line; do
 		echo SUCCEEDED with $line| tee -a $ORIG/pack-status-$file1
 	fi
 	
-done < $FILE.sorted
-
+done < $FILE
