@@ -1,6 +1,5 @@
 {
     "by_pipeline": {
-        "096_pgdb.yaml": [],
         "003_mag.yaml": [
             [
                 "bioconda::checkm-genome"
@@ -41,8 +40,10 @@
                 "bioconda::macrel"
             ]
         ],
+        "089_pairgenomealign.yaml": [],
+        "101_genomeskim.yaml": [],
         "046_gwas.yaml": [],
-        "112_fastqrepair.yaml": [],
+        "087_createtaxdb.yaml": [],
         "022_hlatyping.yaml": [],
         "004_scrnaseq.yaml": [],
         "068_phageannotator.yaml": [
@@ -94,7 +95,6 @@
             ]
         ],
         "069_omicsgenetraitassociation.yaml": [],
-        "084_slamseq.yaml": [],
         "029_rnasplice.yaml": [],
         "028_spatialvi.yaml": [],
         "075_coproid.yaml": [
@@ -107,6 +107,9 @@
         ],
         "017_cutandrun.yaml": [],
         "010_eager.yaml": [
+            [
+                "bioconda::mapad"
+            ],
             [
                 "bioconda::sequencetools"
             ]
@@ -145,7 +148,9 @@
                 "bioconda::truvari"
             ]
         ],
-        "106_demo.yaml": [],
+        "080_datasync.yaml": [],
+        "105_sammyseq.yaml": [],
+        "098_callingcards.yaml": [],
         "048_genomeannotator.yaml": [],
         "059_genomeassembler.yaml": [
             [
@@ -159,15 +164,15 @@
             ],
             [
                 "bioconda::medaka"
-            ]
-        ],
-        "032_scdownstream.yaml": [],
-        "099_genomeqc.yaml": [
-            [
-                "bioconda::busco"
             ],
             [
                 "bioconda::sepp"
+            ]
+        ],
+        "032_scdownstream.yaml": [],
+        "082_tbanalyzer.yaml": [
+            [
+                "bioconda::mtbseq"
             ]
         ],
         "044_multiplesequencealign.yaml": [],
@@ -188,6 +193,7 @@
                 "bioconda::sepp"
             ]
         ],
+        "083_slamseq.yaml": [],
         "014_viralrecon.yaml": [
             [
                 "bioconda::artic"
@@ -198,24 +204,13 @@
                 "bioconda::danpos"
             ]
         ],
+        "103_troughgraph.yaml": [],
         "036_proteomicslfq.yaml": [
             [
                 "openms::openms"
             ]
         ],
-        "094_rnadnavar.yaml": [
-            [
-                "conda-forge::ggpubr"
-            ],
-            [
-                "bioconda::vcf2maf-1.6.21-hdfd78af_0"
-            ],
-            [
-                "bioconda::vt-0.57721-h17a1952_6"
-            ]
-        ],
-        "085_seqinspector.yaml": [],
-        "088_createtaxdb.yaml": [],
+        "090_meerpipe.yaml": [],
         "041_readsimulator.yaml": [],
         "051_clipseq.yaml": [
             [
@@ -225,25 +220,19 @@
                 "bioconda::pureclip"
             ]
         ],
-        "087_hicar.yaml": [],
-        "103_methylarray.yaml": [
-            [
-                "bioconda::bioconductor-champ"
-            ],
-            [
-                "bioconda::bioconductor-dmrcate"
-            ],
-            [
-                "bioconda::bioconductor-missmethyl"
-            ],
-            [
-                "bioconda::conda-forge:r-readr"
-            ]
-        ],
-        "090_pairgenomealign.yaml": [],
+        "086_hicar.yaml": [],
         "015_hic.yaml": [],
         "066_metapep.yaml": [],
         "065_riboseq.yaml": [],
+        "100_magmap.yaml": [],
+        "097_genomeqc.yaml": [
+            [
+                "bioconda::busco"
+            ],
+            [
+                "bioconda::sepp"
+            ]
+        ],
         "012_methylseq.yaml": [],
         "031_circrna.yaml": [
             [
@@ -261,19 +250,30 @@
         ],
         "007_ampliseq.yaml": [],
         "042_imcyto.yaml": [],
-        "101_callingcards.yaml": [],
-        "089_radseq.yaml": [],
         "047_deepmodeloptim.yaml": [],
         "055_nascent.yaml": [
             [
                 "bioconda::bioinfoorphanage-grohmm"
             ]
         ],
+        "106_fastqrepair.yaml": [],
         "079_mcmicro.yaml": [
             [
                 "bioconda::ashlar"
             ]
         ],
+        "093_rnadnavar.yaml": [
+            [
+                "conda-forge::ggpubr"
+            ],
+            [
+                "bioconda::vcf2maf-1.6.21-hdfd78af_0"
+            ],
+            [
+                "bioconda::vt-0.57721-h17a1952_6"
+            ]
+        ],
+        "095_pgdb.yaml": [],
         "054_dualrnaseq.yaml": [],
         "045_metatdenovo.yaml": [
             [
@@ -309,17 +309,14 @@
                 "bioconda::sepp"
             ]
         ],
-        "082_createpanelrefs.yaml": [],
-        "110_sammyseq.yaml": [],
-        "091_meerpipe.yaml": [],
-        "025_airrflow.yaml": [],
-        "105_genomeskim.yaml": [],
-        "067_cageseq.yaml": [],
-        "038_lncpipe.yaml": [
+        "025_airrflow.yaml": [
             [
-                "bioconda::cufflinks"
+                "bioconda::amulety"
             ]
         ],
+        "067_cageseq.yaml": [],
+        "081_createpanelrefs.yaml": [],
+        "038_lncpipe.yaml": [],
         "078_pixelator.yaml": [
             [
                 "bioconda::pixelator"
@@ -330,8 +327,6 @@
                 "bioconda::medaka"
             ]
         ],
-        "107_troughgraph.yaml": [],
-        "095_rangeland.yaml": [],
         "072_denovotranscript.yaml": [
             [
                 "bioconda::busco"
@@ -340,7 +335,11 @@
                 "bioconda::rnaquast"
             ]
         ],
-        "027_bactmap.yaml": [],
+        "027_bactmap.yaml": [
+            [
+                "bioconda::clair3"
+            ]
+        ],
         "073_tfactivity.yaml": [
             [
                 "bioconda::bioconda:bioconductor-universalmotif"
@@ -356,12 +355,20 @@
             ],
             [
                 "bioconda::mulled-v2-cd5249a47f81a81b2e7785172c240f12497f55b4"
+            ],
+            [
+                "bioconda::sneep"
             ]
         ],
         "062_detaxizer.yaml": [],
+        "091_marsseq.yaml": [
+            [
+                "bioconda::gnu-wget"
+            ]
+        ],
         "049_bamtofastq.yaml": [],
-        "081_datasync.yaml": [],
         "002_sarek.yaml": [],
+        "085_phyloplace.yaml": [],
         "060_diaproteomics.yaml": [
             [
                 "conda-forge::r-rmsnumpress"
@@ -401,11 +408,6 @@
             ]
         ],
         "008_nanoseq.yaml": [],
-        "083_tbanalyzer.yaml": [
-            [
-                "bioconda::mtbseq"
-            ]
-        ],
         "033_epitopeprediction.yaml": [
             [
                 "bioconda::epytope"
@@ -426,7 +428,8 @@
                 "conda-forge::tensorflow"
             ]
         ],
-        "104_magmap.yaml": [],
+        "088_radseq.yaml": [],
+        "102_demo.yaml": [],
         "018_pangenome.yaml": [
             [
                 "bioconda::odgi"
@@ -438,17 +441,27 @@
                 "bioconda::smoothxg"
             ]
         ],
-        "043_hgtseq.yaml": [],
-        "009_fetchngs.yaml": [],
-        "092_marsseq.yaml": [
+        "099_methylarray.yaml": [
             [
-                "bioconda::gnu-wget"
+                "bioconda::bioconductor-champ"
+            ],
+            [
+                "bioconda::bioconductor-dmrcate"
+            ],
+            [
+                "bioconda::bioconductor-missmethyl"
+            ],
+            [
+                "bioconda::conda-forge:r-readr"
             ]
         ],
+        "043_hgtseq.yaml": [],
+        "009_fetchngs.yaml": [],
         "013_taxprofiler.yaml": [],
         "006_atacseq.yaml": [],
         "057_viralintegration.yaml": [],
-        "086_phyloplace.yaml": [],
+        "094_rangeland.yaml": [],
+        "084_seqinspector.yaml": [],
         "005_chipseq.yaml": []
     },
     "by_package": {
@@ -524,7 +537,7 @@
         ],
         "bioconda::gnu-wget": [
             "011_rnafusion.yaml",
-            "092_marsseq.yaml"
+            "091_marsseq.yaml"
         ],
         "bioconda::star-fusion": [
             "011_rnafusion.yaml"
@@ -536,6 +549,9 @@
         ],
         "bioconda::sam2lca": [
             "075_coproid.yaml"
+        ],
+        "bioconda::mapad": [
+            "010_eager.yaml"
         ],
         "bioconda::sequencetools": [
             "010_eager.yaml"
@@ -563,8 +579,8 @@
         ],
         "bioconda::busco": [
             "059_genomeassembler.yaml",
-            "099_genomeqc.yaml",
             "061_pathogensurveillance.yaml",
+            "097_genomeqc.yaml",
             "023_bacass.yaml",
             "072_denovotranscript.yaml"
         ],
@@ -578,9 +594,13 @@
             "035_crisprseq.yaml"
         ],
         "bioconda::sepp": [
-            "099_genomeqc.yaml",
+            "059_genomeassembler.yaml",
             "061_pathogensurveillance.yaml",
+            "097_genomeqc.yaml",
             "023_bacass.yaml"
+        ],
+        "bioconda::mtbseq": [
+            "082_tbanalyzer.yaml"
         ],
         "bioconda::r-pathosurveilr": [
             "061_pathogensurveillance.yaml"
@@ -594,32 +614,11 @@
         "openms::openms": [
             "036_proteomicslfq.yaml"
         ],
-        "conda-forge::ggpubr": [
-            "094_rnadnavar.yaml"
-        ],
-        "bioconda::vcf2maf-1.6.21-hdfd78af_0": [
-            "094_rnadnavar.yaml"
-        ],
-        "bioconda::vt-0.57721-h17a1952_6": [
-            "094_rnadnavar.yaml"
-        ],
         "bioconda::piranha": [
             "051_clipseq.yaml"
         ],
         "bioconda::pureclip": [
             "051_clipseq.yaml"
-        ],
-        "bioconda::bioconductor-champ": [
-            "103_methylarray.yaml"
-        ],
-        "bioconda::bioconductor-dmrcate": [
-            "103_methylarray.yaml"
-        ],
-        "bioconda::bioconductor-missmethyl": [
-            "103_methylarray.yaml"
-        ],
-        "bioconda::conda-forge:r-readr": [
-            "103_methylarray.yaml"
         ],
         "bioconda::find_circ": [
             "031_circrna.yaml"
@@ -635,6 +634,15 @@
         ],
         "bioconda::ashlar": [
             "079_mcmicro.yaml"
+        ],
+        "conda-forge::ggpubr": [
+            "093_rnadnavar.yaml"
+        ],
+        "bioconda::vcf2maf-1.6.21-hdfd78af_0": [
+            "093_rnadnavar.yaml"
+        ],
+        "bioconda::vt-0.57721-h17a1952_6": [
+            "093_rnadnavar.yaml"
         ],
         "bioconda::diamond:2.1.10": [
             "045_metatdenovo.yaml"
@@ -654,14 +662,17 @@
         "bioconda::nanopolish": [
             "023_bacass.yaml"
         ],
-        "bioconda::cufflinks": [
-            "038_lncpipe.yaml"
+        "bioconda::amulety": [
+            "025_airrflow.yaml"
         ],
         "bioconda::pixelator": [
             "078_pixelator.yaml"
         ],
         "bioconda::rnaquast": [
             "072_denovotranscript.yaml"
+        ],
+        "bioconda::clair3": [
+            "027_bactmap.yaml"
         ],
         "bioconda::bioconda:bioconductor-universalmotif": [
             "073_tfactivity.yaml"
@@ -676,6 +687,9 @@
             "073_tfactivity.yaml"
         ],
         "bioconda::mulled-v2-cd5249a47f81a81b2e7785172c240f12497f55b4": [
+            "073_tfactivity.yaml"
+        ],
+        "bioconda::sneep": [
             "073_tfactivity.yaml"
         ],
         "conda-forge::r-rmsnumpress": [
@@ -702,9 +716,6 @@
         "bioconda::isoseq": [
             "039_isoseq.yaml"
         ],
-        "bioconda::mtbseq": [
-            "083_tbanalyzer.yaml"
-        ],
         "bioconda::epytope": [
             "033_epitopeprediction.yaml"
         ],
@@ -728,6 +739,18 @@
         ],
         "bioconda::smoothxg": [
             "018_pangenome.yaml"
+        ],
+        "bioconda::bioconductor-champ": [
+            "099_methylarray.yaml"
+        ],
+        "bioconda::bioconductor-dmrcate": [
+            "099_methylarray.yaml"
+        ],
+        "bioconda::bioconductor-missmethyl": [
+            "099_methylarray.yaml"
+        ],
+        "bioconda::conda-forge:r-readr": [
+            "099_methylarray.yaml"
         ]
     }
 }
