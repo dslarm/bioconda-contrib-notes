@@ -5,7 +5,6 @@ ORIG=$PWD
 if [ $1 ]; then
     FILE=$1
     sort -k2 -r -g $FILE > $FILE.sorted
-    FILE=$file1
 else
     DIR=`mktemp -d /tmp/conda-stats-XXXX`
     echo $DIR
