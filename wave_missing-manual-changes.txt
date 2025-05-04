@@ -1,4 +1,4 @@
-Missing packages: 88 (was 90)
+Missing packages: 87 (was 90)
 Incomplete pipelines: 41 of 101
 
 PIPELINES SUMMARY:
@@ -27,7 +27,7 @@ PIPELINES SUMMARY:
 055_nascent.yaml : ['bioconda::bioinfoorphanage-grohmm']
 056_phaseimpute.yaml : ['bioconda::glimpse-bio', 'bioconda::shapeit5']
 059_genomeassembler.yaml : ['bioconda::busco', 'conda-forge::quarto', 'bioconda::lima', 'bioconda::medaka', 'bioconda::sepp']
-060_diaproteomics.yaml : ['conda-forge::r-rmsnumpress', 'bioconda::easypqp', 'bioconda::openms-thirdparty']
+060_diaproteomics.yaml : ['bioconda::easypqp', 'bioconda::openms-thirdparty']
 061_pathogensurveillance.yaml : ['bioconda::busco', 'conda-forge::quarto', 'bioconda::gcnvkernel', 'bioconda::r-pathosurveilr', 'bioconda::sepp']
 063_variantbenchmarking.yaml : ['conda-forge::datavzrd', 'bioconda::hap.py', 'bioconda::svanalyzer', 'bioconda::svync', 'bioconda::truvari']
 068_phageannotator.yaml : ['bioconda::checkv', 'bioconda::cobra-meta', 'bioconda::coverm', 'bioconda::genomad', 'bioconda::instrain', 'bioconda::iphop', 'bioconda::pharokka']
@@ -124,10 +124,9 @@ bioconda::truvari : ['063_variantbenchmarking.yaml']
 bioconda::vcf2maf-1.6.21-hdfd78af_0 : ['093_rnadnavar.yaml']
 bioconda::vt-0.57721-h17a1952_6 : ['093_rnadnavar.yaml']
 conda-forge::datavzrd : ['063_variantbenchmarking.yaml']
-conda-forge::ggpubr : ['093_rnadnavar.yaml']
+** incorrect -- r-ggpubr ** :  conda-forge::ggpubr : ['093_rnadnavar.yaml']
 conda-forge::mulled-v2-2076f4a3fb468a04063c9e6b7747a630abb457f6 : ['073_tfactivity.yaml']
 conda-forge::quarto : ['075_coproid.yaml', '059_genomeassembler.yaml', '061_pathogensurveillance.yaml']
-conda-forge::r-rmsnumpress : ['060_diaproteomics.yaml']
 conda-forge::stardist : ['070_molkart.yaml']
 conda-forge::tensorflow : ['070_molkart.yaml']
 conda-forge::tiara : ['003_mag.yaml']
@@ -138,3 +137,4 @@ r::r-base : ['076_variantcatalogue.yaml']
 * FIXED * bioconda::bioconda:gtftools : ['073_tfactivity.yaml']
 * FIXED * bioconda::mapad : ['010_eager.yaml']
 * FIXED * bioconda::svtk : ['063_variantbenchmarking.yaml']
+* FIXED * conda-forge::r-rmsnumpress : ['060_diaproteomics.yaml']
