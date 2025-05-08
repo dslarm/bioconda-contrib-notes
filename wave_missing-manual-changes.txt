@@ -1,5 +1,5 @@
-Missing packages: 73 (was 90)
-Incomplete pipelines: 36 (was 41) of 101
+Missing packages: 66 (was 90)
+Incomplete pipelines: 35 (was 41) of 101
 
 PIPELINES SUMMARY:
 
@@ -10,7 +10,7 @@ PIPELINES SUMMARY:
 016_raredisease.yaml : ['bioconda::bwa-meme', 'bioconda::eklipse']
 018_pangenome.yaml : ['bioconda::odgi', 'bioconda::pggb', 'bioconda::smoothxg']
 020_funcscan.yaml : ['bioconda::amplify', 'bioconda::antismash-lite', 'bioconda::deeparg', 'bioconda::deepbgc', 'bioconda::fargene', 'bioconda::interproscan', 'bioconda::macrel']
-023_bacass.yaml : ['bioconda::busco', 'bioconda::dfast', 'bioconda::dragonflye', 'bioconda::nanopolish', 'bioconda::sepp']
+023_bacass.yaml : ['bioconda::busco', 'bioconda::dfast', 'bioconda::nanopolish', 'bioconda::sepp']
 025_airrflow.yaml : ['bioconda::amulety']
 027_bactmap.yaml : ['bioconda::clair3']
 031_circrna.yaml : ['bioconda::find_circ', 'bioconda::mapsplice']
@@ -20,7 +20,6 @@ PIPELINES SUMMARY:
 037_mhcquant.yaml : ['bioconda::openms', 'bioconda::openms-thirdparty']
 039_isoseq.yaml : ['bioconda::gs-tama', 'bioconda::isoseq', 'bioconda::lima']
 045_metatdenovo.yaml : ['bioconda::diamond:2.1.10', 'bioconda::transrate']
-050_scnanoseq.yaml : ['bioconda::bioconda:nanocomp']
 051_clipseq.yaml : ['bioconda::piranha', 'bioconda::pureclip']
 055_nascent.yaml : ['bioconda::bioinfoorphanage-grohmm']
 056_phaseimpute.yaml : ['bioconda::glimpse-bio', 'bioconda::shapeit5']
@@ -36,7 +35,7 @@ PIPELINES SUMMARY:
 075_coproid.yaml : ['conda-forge::quarto']
 079_mcmicro.yaml : ['bioconda::ashlar']
 097_genomeqc.yaml : ['bioconda::busco', 'bioconda::sepp']
-099_methylarray.yaml : ['bioconda::bioconductor-champ', 'bioconda::bioconductor-dmrcate', 'bioconda::bioconductor-missmethyl', 'bioconda::conda-forge:r-readr']
+099_methylarray.yaml : ['bioconda::bioconductor-champ', 'bioconda::bioconductor-dmrcate', 'bioconda::bioconductor-missmethyl']
 
 PACKAGES SUMMARY:
 
@@ -45,7 +44,6 @@ bioconda::amulety : ['025_airrflow.yaml']
 bioconda::antismash-lite : ['020_funcscan.yaml']
 bioconda::artic : ['014_viralrecon.yaml']
 bioconda::ashlar : ['079_mcmicro.yaml']
-bioconda::bioconda:nanocomp : ['050_scnanoseq.yaml']
 bioconda::bioconductor-champ : ['099_methylarray.yaml']
 bioconda::bioconductor-dmrcate : ['099_methylarray.yaml']
 bioconda::bioconductor-missmethyl : ['099_methylarray.yaml']
@@ -55,14 +53,12 @@ bioconda::bwa-meme : ['016_raredisease.yaml']
 bioconda::checkm-genome : ['003_mag.yaml']
 bioconda::checkm2 : ['003_mag.yaml']
 bioconda::clair3 : ['027_bactmap.yaml']
-bioconda::conda-forge:r-readr : ['099_methylarray.yaml']
 bioconda::coverm : ['068_phageannotator.yaml']
 bioconda::danpos : ['071_mnaseseq.yaml']
 bioconda::deeparg : ['020_funcscan.yaml']
 bioconda::deepbgc : ['020_funcscan.yaml']
 bioconda::dfast : ['023_bacass.yaml']
 bioconda::diamond:2.1.10 : ['045_metatdenovo.yaml']
-bioconda::dragonflye : ['023_bacass.yaml']
 bioconda::easypqp : ['060_diaproteomics.yaml']
 bioconda::eklipse : ['016_raredisease.yaml']
 bioconda::epytope : ['033_epitopeprediction.yaml']
@@ -122,6 +118,7 @@ openms::openms : ['036_proteomicslfq.yaml']
 * FIXED * bioconda::pixelator : ['078_pixelator.yaml']
 * FIXED * bioconda::truvari : ['063_variantbenchmarking.yaml']
 * FIXED * bioconda::medaka : ['059_genomeassembler.yaml', '023_bacass.yaml', '035_crisprseq.yaml']
+* FIXED * bioconda::dragonflye : ['023_bacass.yaml']
 * NOT BROKEN ? * bioconda::r-immunedeconv : ['021_differentialabundance.yaml']
 * NOT BROKEN ? * bioconda::instrain : ['068_phageannotator.yaml']
 * NOT BROKEN ? * bioconda::cobra-meta : ['068_phageannotator.yaml']
@@ -131,3 +128,5 @@ openms::openms : ['036_proteomicslfq.yaml']
 * incorrect -- r-ggpubr ** :  conda-forge::ggpubr : ['093_rnadnavar.yaml']
 * incorrect -- r::r-base : ['076_variantcatalogue.yaml']
 * incorrect -- PR raised -- bioconda::gnu-wget : ['091_marsseq.yaml']
+* incorrect -- bioconda::conda-forge:r-readr : ['099_methylarray.yaml']
+* incorrect -- bioconda::bioconda:nanocomp : ['050_scnanoseq.yaml']
