@@ -1,4 +1,4 @@
-Missing packages: 66 (was 90)
+Missing packages: 65 (was 90)
 Incomplete pipelines: 33 (was 41) of 101
 
 PIPELINES SUMMARY:
@@ -25,7 +25,7 @@ PIPELINES SUMMARY:
 056_phaseimpute.yaml : ['bioconda::glimpse-bio', 'bioconda::shapeit5']
 059_genomeassembler.yaml : ['bioconda::busco', 'conda-forge::quarto', 'bioconda::lima', 'bioconda::sepp']
 060_diaproteomics.yaml : ['bioconda::easypqp', 'bioconda::openms-thirdparty']
-061_pathogensurveillance.yaml : ['bioconda::busco', 'conda-forge::quarto', 'bioconda::gcnvkernel', 'bioconda::r-pathosurveilr', 'bioconda::sepp']
+061_pathogensurveillance.yaml : ['bioconda::busco', 'conda-forge::quarto', 'bioconda::gcnvkernel', 'bioconda::sepp']
 063_variantbenchmarking.yaml : ['bioconda::hap.py', 'bioconda::svanalyzer', 'bioconda::svync']
 068_phageannotator.yaml : ['bioconda::coverm', 'bioconda::genomad', 'bioconda::iphop', 'bioconda::pharokka']
 070_molkart.yaml : ['conda-forge::stardist', 'conda-forge::tensorflow']
@@ -89,7 +89,6 @@ bioconda::pggb : ['018_pangenome.yaml']
 bioconda::pharokka : ['068_phageannotator.yaml']
 bioconda::piranha : ['051_clipseq.yaml']
 bioconda::pureclip : ['051_clipseq.yaml']
-bioconda::r-pathosurveilr : ['061_pathogensurveillance.yaml']
 bioconda::rnaquast : ['072_denovotranscript.yaml']
 bioconda::sepp : ['059_genomeassembler.yaml', '061_pathogensurveillance.yaml', '097_genomeqc.yaml', '023_bacass.yaml']
 bioconda::sequencetools : ['010_eager.yaml']
@@ -116,6 +115,7 @@ openms::openms : ['036_proteomicslfq.yaml']
 * FIXED * bioconda::mtbseq : ['082_tbanalyzer.yaml']
 * FIXED * bioconda::sam2lca : ['075_coproid.yaml']
 * FIXED * bioconda::pixelator : ['078_pixelator.yaml']
+* FIXED * bioconda::r-pathosurveilr : ['061_pathogensurveillance.yaml']
 * FIXED * bioconda::truvari : ['063_variantbenchmarking.yaml']
 * FIXED * bioconda::medaka : ['059_genomeassembler.yaml', '023_bacass.yaml', '035_crisprseq.yaml']
 * FIXED * bioconda::dragonflye : ['023_bacass.yaml']
