@@ -33,7 +33,7 @@ A successful result is being able to type "conda install {package}" and get the 
     
   - Install bioconda
     ```
-    conda config --add channels defaults
+    # conda config --add channels defaults
     conda config --add channels bioconda
     conda config --add channels conda-forge
 	  ```
