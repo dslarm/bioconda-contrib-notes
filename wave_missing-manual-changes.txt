@@ -119,14 +119,14 @@ openms::openms : ['036_proteomicslfq.yaml']
 * FIXED * bioconda::truvari : ['063_variantbenchmarking.yaml']
 * FIXED * bioconda::medaka : ['059_genomeassembler.yaml', '023_bacass.yaml', '035_crisprseq.yaml']
 * FIXED * bioconda::dragonflye : ['023_bacass.yaml']
+* DROPPED -- issue closed * bioconda::gnu-wget : ['091_marsseq.yaml' ] -- https://github.com/nf-core/marsseq/issues/32
 * NOT BROKEN ? * bioconda::r-immunedeconv : ['021_differentialabundance.yaml']
 * NOT BROKEN ? * bioconda::instrain : ['068_phageannotator.yaml']
 * NOT BROKEN ? * bioconda::cobra-meta : ['068_phageannotator.yaml']
 * NOT BROKEN ? * bioconda::checkv : ['068_phageannotator.yaml']
-* ERROR - PACKID * bioconda::vcf2maf-1.6.21-hdfd78af_0 : ['093_rnadnavar.yaml']
-* ERROR - PACKID * bioconda::vt-0.57721-h17a1952_6 : ['093_rnadnavar.yaml']
-* incorrect -- r-ggpubr ** :  conda-forge::ggpubr : ['093_rnadnavar.yaml']
-* incorrect -- r::r-base : ['076_variantcatalogue.yaml']
-* incorrect -- PR raised -- bioconda::gnu-wget : ['091_marsseq.yaml']
-* incorrect -- bioconda::conda-forge:r-readr : ['099_methylarray.yaml']
-* incorrect -- bioconda::bioconda:nanocomp : ['050_scnanoseq.yaml']
+* ERROR - PACKID * bioconda::vcf2maf-1.6.21-hdfd78af_0 : ['093_rnadnavar.yaml'] -- https://github.com/nf-core/rnadnavar/issues/51
+* ERROR - PACKID * bioconda::vt-0.57721-h17a1952_6 : ['093_rnadnavar.yaml'] -- https://github.com/nf-core/rnadnavar/issues/51
+* incorrect -- r-ggpubr ** :  conda-forge::ggpubr : ['093_rnadnavar.yaml']  -- https://github.com/nf-core/rnadnavar/issues/52
+* incorrect -- r::r-base : ['076_variantcatalogue.yaml'] -- https://github.com/nf-core/variantcatalogue/issues/23
+* incorrect -- bioconda::conda-forge:r-readr : ['099_methylarray.yaml'] -- https://github.com/nf-core/methylarray/issues/30
+* incorrect -- bioconda::bioconda:nanocomp : ['050_scnanoseq.yaml'] -- https://github.com/nf-core/scnanoseq/issues/62
