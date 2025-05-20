@@ -1,5 +1,5 @@
 Missing packages: 64 (was 90)
-Incomplete pipelines: 32 (was 41) of 101
+Incomplete pipelines: 30 (was 41) of 101
 
 PIPELINES SUMMARY:
 
@@ -11,7 +11,6 @@ PIPELINES SUMMARY:
 018_pangenome.yaml : ['bioconda::odgi', 'bioconda::pggb', 'bioconda::smoothxg']
 020_funcscan.yaml : ['bioconda::amplify', 'bioconda::deeparg', 'bioconda::deepbgc', 'bioconda::fargene', 'bioconda::interproscan', 'bioconda::macrel']
 023_bacass.yaml : ['bioconda::busco', 'bioconda::dfast', 'bioconda::nanopolish', 'bioconda::sepp']
-025_airrflow.yaml : ['bioconda::amulety']
 027_bactmap.yaml : ['bioconda::clair3']
 031_circrna.yaml : ['bioconda::find_circ', 'bioconda::mapsplice']
 033_epitopeprediction.yaml : ['bioconda::epytope', 'bioconda::mhcflurry', 'bioconda::mhcnuggets']
@@ -33,16 +32,13 @@ PIPELINES SUMMARY:
 072_denovotranscript.yaml : ['bioconda::busco', 'bioconda::rnaquast']
 073_tfactivity.yaml : ['conda-forge::mulled-v2-2076f4a3fb468a04063c9e6b7747a630abb457f6', 'bioconda::mulled-v2-ab48c38c3be93a696d7773767d9287b4a0d3bf19', 'bioconda::mulled-v2-cd5249a47f81a81b2e7785172c240f12497f55b4']
 075_coproid.yaml : ['conda-forge::quarto']
-079_mcmicro.yaml : ['bioconda::ashlar']
 097_genomeqc.yaml : ['bioconda::busco', 'bioconda::sepp']
 099_methylarray.yaml : ['bioconda::bioconductor-champ', 'bioconda::bioconductor-dmrcate', 'bioconda::bioconductor-missmethyl']
 
 PACKAGES SUMMARY:
 
 bioconda::amplify : ['020_funcscan.yaml']
-bioconda::amulety : ['025_airrflow.yaml']
 bioconda::artic : ['014_viralrecon.yaml']
-bioconda::ashlar : ['079_mcmicro.yaml']
 bioconda::bioconductor-champ : ['099_methylarray.yaml']
 bioconda::bioconductor-dmrcate : ['099_methylarray.yaml']
 bioconda::bioconductor-missmethyl : ['099_methylarray.yaml']
@@ -105,8 +101,9 @@ conda-forge::tiara : ['003_mag.yaml']
 openms::openms : ['036_proteomicslfq.yaml']
 
 
-PENDING: bioconda::antismash-lite : ['020_funcscan.yaml']
-
+* FIXED * bioconda::antismash-lite : ['020_funcscan.yaml']
+* FIXED * bioconda::ashlar : ['079_mcmicro.yaml']
+* FIXED * bioconda::amulety : ['025_airrflow.yaml']
 * FIXED * bioconda::bioconda:bioconductor-universalmotif : ['073_tfactivity.yaml']
 * FIXED * bioconda::bioconda:gtftools : ['073_tfactivity.yaml']
 * FIXED * bioconda::mapad : ['010_eager.yaml']
