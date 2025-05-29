@@ -1,5 +1,5 @@
 Missing packages: 60 (was 90)
-Incomplete pipelines: 30 (was 41) of 101
+Incomplete pipelines: 29 (was 41) of 101
 
 PIPELINES SUMMARY:
 
@@ -22,7 +22,6 @@ PIPELINES SUMMARY:
 055_nascent.yaml : ['bioconda::bioinfoorphanage-grohmm']
 056_phaseimpute.yaml : ['bioconda::glimpse-bio', 'bioconda::shapeit5']
 059_genomeassembler.yaml : ['bioconda::busco', 'conda-forge::quarto', 'bioconda::lima', 'bioconda::sepp']
-060_diaproteomics.yaml : ['bioconda::easypqp']
 061_pathogensurveillance.yaml : ['bioconda::busco', 'conda-forge::quarto', 'bioconda::gcnvkernel', 'bioconda::sepp']
 063_variantbenchmarking.yaml : ['bioconda::hap.py', 'bioconda::svanalyzer', 'bioconda::svync']
 068_phageannotator.yaml : ['bioconda::coverm', 'bioconda::genomad', 'bioconda::iphop', 'bioconda::pharokka']
@@ -53,7 +52,6 @@ bioconda::deeparg : ['020_funcscan.yaml']
 bioconda::deepbgc : ['020_funcscan.yaml']
 bioconda::dfast : ['023_bacass.yaml']
 bioconda::diamond:2.1.10 : ['045_metatdenovo.yaml']
-bioconda::easypqp : ['060_diaproteomics.yaml']
 bioconda::eklipse : ['016_raredisease.yaml']
 bioconda::epytope : ['033_epitopeprediction.yaml']
 bioconda::fargene : ['020_funcscan.yaml']
@@ -97,6 +95,7 @@ conda-forge::tensorflow : ['070_molkart.yaml']
 conda-forge::tiara : ['003_mag.yaml']
 openms::openms : ['036_proteomicslfq.yaml']
 
+* FIXED * bioconda::easypqp : ['060_diaproteomics.yaml']
 * FIXED * bioconda::openms-thirdparty : ['037_mhcquant.yaml', '060_diaproteomics.yaml']
 * FIXED * bioconda::openms : ['037_mhcquant.yaml']
 * FIXED * bioconda::antismash-lite : ['020_funcscan.yaml']
