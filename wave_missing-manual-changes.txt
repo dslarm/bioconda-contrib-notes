@@ -1,4 +1,4 @@
-Missing packages: 64 (was 90)
+Missing packages: 60 (was 90)
 Incomplete pipelines: 30 (was 41) of 101
 
 PIPELINES SUMMARY:
@@ -16,14 +16,13 @@ PIPELINES SUMMARY:
 033_epitopeprediction.yaml : ['bioconda::epytope', 'bioconda::mhcflurry', 'bioconda::mhcnuggets']
 034_rnavar.yaml : ['bioconda::gcnvkernel']
 036_proteomicslfq.yaml : ['openms::openms']
-037_mhcquant.yaml : ['bioconda::openms', 'bioconda::openms-thirdparty']
 039_isoseq.yaml : ['bioconda::gs-tama', 'bioconda::isoseq', 'bioconda::lima']
 045_metatdenovo.yaml : ['bioconda::diamond:2.1.10', 'bioconda::transrate']
 051_clipseq.yaml : ['bioconda::piranha', 'bioconda::pureclip']
 055_nascent.yaml : ['bioconda::bioinfoorphanage-grohmm']
 056_phaseimpute.yaml : ['bioconda::glimpse-bio', 'bioconda::shapeit5']
 059_genomeassembler.yaml : ['bioconda::busco', 'conda-forge::quarto', 'bioconda::lima', 'bioconda::sepp']
-060_diaproteomics.yaml : ['bioconda::easypqp', 'bioconda::openms-thirdparty']
+060_diaproteomics.yaml : ['bioconda::easypqp']
 061_pathogensurveillance.yaml : ['bioconda::busco', 'conda-forge::quarto', 'bioconda::gcnvkernel', 'bioconda::sepp']
 063_variantbenchmarking.yaml : ['bioconda::hap.py', 'bioconda::svanalyzer', 'bioconda::svync']
 068_phageannotator.yaml : ['bioconda::coverm', 'bioconda::genomad', 'bioconda::iphop', 'bioconda::pharokka']
@@ -78,8 +77,6 @@ bioconda::mulled-v2-ab48c38c3be93a696d7773767d9287b4a0d3bf19 : ['073_tfactivity.
 bioconda::mulled-v2-cd5249a47f81a81b2e7785172c240f12497f55b4 : ['073_tfactivity.yaml']
 bioconda::nanopolish : ['023_bacass.yaml']
 bioconda::odgi : ['018_pangenome.yaml']
-bioconda::openms : ['037_mhcquant.yaml']
-bioconda::openms-thirdparty : ['037_mhcquant.yaml', '060_diaproteomics.yaml']
 bioconda::pggb : ['018_pangenome.yaml']
 bioconda::pharokka : ['068_phageannotator.yaml']
 bioconda::piranha : ['051_clipseq.yaml']
@@ -100,7 +97,8 @@ conda-forge::tensorflow : ['070_molkart.yaml']
 conda-forge::tiara : ['003_mag.yaml']
 openms::openms : ['036_proteomicslfq.yaml']
 
-
+* FIXED * bioconda::openms-thirdparty : ['037_mhcquant.yaml', '060_diaproteomics.yaml']
+* FIXED * bioconda::openms : ['037_mhcquant.yaml']
 * FIXED * bioconda::antismash-lite : ['020_funcscan.yaml']
 * FIXED * bioconda::ashlar : ['079_mcmicro.yaml']
 * FIXED * bioconda::amulety : ['025_airrflow.yaml']
