@@ -126,3 +126,4 @@ openms::openms : ['036_proteomicslfq.yaml']
 * incorrect -- r::r-base : ['076_variantcatalogue.yaml'] -- https://github.com/nf-core/variantcatalogue/issues/23
 * incorrect -- bioconda::conda-forge:r-readr : ['099_methylarray.yaml'] -- https://github.com/nf-core/methylarray/issues/30
 * incorrect -- bioconda::bioconda:nanocomp : ['050_scnanoseq.yaml'] -- https://github.com/nf-core/scnanoseq/issues/62
+* incorrect -- openms::openms : ['036_proteomicslfq.yaml'] -- ??
