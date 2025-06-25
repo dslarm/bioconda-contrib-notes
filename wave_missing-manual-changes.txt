@@ -7,7 +7,7 @@ PIPELINES SUMMARY:
 010_eager.yaml : ['bioconda::sequencetools']
 011_rnafusion.yaml : ['bioconda::fusioncatcher', 'bioconda::gcnvkernel', 'bioconda::star-fusion']
 014_viralrecon.yaml : ['bioconda::artic']
-016_raredisease.yaml : ['bioconda::bwa-meme', 'bioconda::eklipse']
+016_raredisease.yaml : ['bioconda::bwa-meme']
 018_pangenome.yaml : ['bioconda::odgi', 'bioconda::pggb', 'bioconda::smoothxg']
 020_funcscan.yaml : ['bioconda::amplify', 'bioconda::deeparg', 'bioconda::deepbgc', 'bioconda::fargene', 'bioconda::interproscan', 'bioconda::macrel']
 023_bacass.yaml : ['bioconda::busco', 'bioconda::dfast', 'bioconda::nanopolish', 'bioconda::sepp']
@@ -52,7 +52,6 @@ bioconda::deeparg : ['020_funcscan.yaml']
 bioconda::deepbgc : ['020_funcscan.yaml']
 bioconda::dfast : ['023_bacass.yaml']
 bioconda::diamond:2.1.10 : ['045_metatdenovo.yaml']
-bioconda::eklipse : ['016_raredisease.yaml']
 bioconda::epytope : ['033_epitopeprediction.yaml']
 bioconda::fargene : ['020_funcscan.yaml']
 bioconda::find_circ : ['031_circrna.yaml']
@@ -115,6 +114,7 @@ openms::openms : ['036_proteomicslfq.yaml']
 * FIXED * bioconda::truvari : ['063_variantbenchmarking.yaml']
 * FIXED * bioconda::medaka : ['059_genomeassembler.yaml', '023_bacass.yaml', '035_crisprseq.yaml']
 * FIXED * bioconda::dragonflye : ['023_bacass.yaml']
+* FIXED * bioconda::eklipse : ['016_raredisease.yaml']
 * DROPPED -- issue closed * bioconda::gnu-wget : ['091_marsseq.yaml' ] -- https://github.com/nf-core/marsseq/issues/32
 * NOT BROKEN ? * bioconda::r-immunedeconv : ['021_differentialabundance.yaml']
 * NOT BROKEN ? * bioconda::instrain : ['068_phageannotator.yaml']
@@ -126,4 +126,4 @@ openms::openms : ['036_proteomicslfq.yaml']
 * incorrect -- r::r-base : ['076_variantcatalogue.yaml'] -- https://github.com/nf-core/variantcatalogue/issues/23
 * incorrect -- bioconda::conda-forge:r-readr : ['099_methylarray.yaml'] -- https://github.com/nf-core/methylarray/issues/30
 * incorrect -- bioconda::bioconda:nanocomp : ['050_scnanoseq.yaml'] -- https://github.com/nf-core/scnanoseq/issues/62
-* incorrect -- openms::openms : ['036_proteomicslfq.yaml'] -- ??
+* incorrect -- openms::openms : ['036_proteomicslfq.yaml'] -- pipeline archived
