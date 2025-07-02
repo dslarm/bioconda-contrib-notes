@@ -122,7 +122,7 @@ with open("../packages.md", "w") as f:
         s[arch] = sorted(arch_count[arch].items(), key=lambda x: x[1], reverse = True)
         f.write(f'{arch} | ')
     print('', file = f)
-    print('|-' * length(arch_count.keys()) + '|', file = f)
+    print('|-' * len(arch_count.keys()) + '|', file = f)
     
     for i in range(0, 9):
         f.write('|')
