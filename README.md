@@ -21,6 +21,10 @@ bioconda is a channel of packages (recipes) that are installed via the conda sys
 
 A successful result is being able to type "conda install {package}" and get the package to install.
 
+## What packages are missing?
+
+Check out [packages](./packages.md) to get a prioritized list of packages missing at the moment.
+
 ## Getting set up
 
 - To use bioconda (required)
