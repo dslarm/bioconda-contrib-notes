@@ -43,6 +43,7 @@ jobs:
           git config user.email github-actions@github.com
           git add downloads.png
           git add percents.png
+          git add packages.md
           sum downloads.png percents.png
           git commit -m 'update front image'
           git push
