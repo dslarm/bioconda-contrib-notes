@@ -131,6 +131,12 @@ with open("../packages.md", "w") as f:
             f.write(f'{s[arch][i]} |')
         print('', file = f)
 
+    conda_packs = set()
+    with open("../conda_forge.csv", 'r') as conda:
+        for line in conda:
+            conda_packs.add(line.split(",")[1])
+    
+
     print("# First 10 missing packages in linux-aarch64 by linux-x86_64 rank", file = f)
     print("## last 7 days", file = f)
     counter = 0 
@@ -138,7 +144,7 @@ with open("../packages.md", "w") as f:
     print('| Package | Downloads |', file = f)
     print('| - | - |', file = f)
     for i in s['linux-64']:
-        if not (i[0] in arch_count['linux-aarch64']) and not(i[0] in arch_count['noarch']):
+        if not (i[0] in arch_count['linux-aarch64']) and not(i[0] in arch_count['noarch']) and not (i[0] in conda_packs):
             print(f'| {i[0]} | {i[1]} | ', file = f)
 
             counter += 1
@@ -152,7 +158,7 @@ with open("../packages.md", "w") as f:
     print('| Package | Downloads |', file = f)
     print('| - | - |', file = f)
     for i in s['osx-64']:
-        if not (i[0] in arch_count['osx-arm64']) and not(i[0] in arch_count['noarch']):
+        if not (i[0] in arch_count['osx-arm64']) and not(i[0] in arch_count['noarch']) and not (i[0] in conda_packs):
             print(f'| {i[0]} | {i[1]} | ', file = f)
             counter += 1
         if counter >= 10:
