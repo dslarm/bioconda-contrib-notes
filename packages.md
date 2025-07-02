@@ -1,7 +1,6 @@
 # Top 10 packages by architecture
-
 |linux-64 | noarch | osx-64 | linux-aarch64 | osx-arm64 | 
-|--|--|--|--|--|--|
+|-|-|-|-|-|
 |('pysam', 45188) |('dxpy', 11839) |('pysam', 30838) |('harpy', 18460) |('pysam', 4828) |
 |('samtools', 31986) |('picard', 9911) |('meme', 17714) |('pysam', 6695) |('last', 2517) |
 |('htslib', 26995) |('bioconductor-biocgenerics', 7665) |('last', 15107) |('last', 3143) |('htslib', 1071) |
@@ -11,7 +10,6 @@
 |('bedtools', 17057) |('bioconductor-summarizedexperiment', 5786) |('peptide-shaker', 9908) |('ucsc-fatotwobit', 1642) |('fasttree', 604) |
 |('last', 16492) |('bioconductor-matrixgenerics', 5636) |('samtools', 9709) |('ucsc-wigtobigwig', 1337) |('hmmer', 598) |
 |('bbmap', 13311) |('metaphlan', 5392) |('diamond', 8184) |('ucsc-bedgraphtobigwig', 1280) |('raxml', 559) |
-
 # First 10 missing packages in linux-aarch64 by linux-x86_64 rank
 ('aria2', 5230)
 ('genenotebook', 4474)
