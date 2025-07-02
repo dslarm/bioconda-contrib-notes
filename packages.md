@@ -1,4 +1,5 @@
 # Top 10 packages by architecture
+
 |linux-64 | noarch | osx-64 | linux-aarch64 | osx-arm64 | 
 |--|--|--|--|--|--|
 |('pysam', 45188) |('dxpy', 11839) |('pysam', 30838) |('harpy', 18460) |('pysam', 4828) |
