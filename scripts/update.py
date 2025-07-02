@@ -115,6 +115,7 @@ for root, dir, files in os.walk(packages):
 with open("../packages.md", "w") as f:
 
     print("# Top 10 packages by architecture", file = f)
+    print("## last 7 days", file = f)
     
     s = {}
     f.write('|')
@@ -131,19 +132,28 @@ with open("../packages.md", "w") as f:
         print('', file = f)
 
     print("# First 10 missing packages in linux-aarch64 by linux-x86_64 rank", file = f)
+    print("## last 7 days", file = f)
     counter = 0 
+    print(file = f)
+    print('| Package | Downloads |', file = f)
+    print('| - | - |', file = f)
     for i in s['linux-64']:
         if not (i[0] in arch_count['linux-aarch64']) and not(i[0] in arch_count['noarch']):
-            print(i, file = f)
+            print(f'| {i[0]} | {i[1]} | ', file = f)
+
             counter += 1
         if counter >= 10:
             break
         
     print("# First 10 missing packages in osx-arm64 by osx-64 rank", file = f)
-    counter = 0 
+    print("## last 7 days", file = f)
+    counter = 0
+    print(file = f)
+    print('| Package | Downloads |', file = f)
+    print('| - | - |', file = f)
     for i in s['osx-64']:
         if not (i[0] in arch_count['osx-arm64']) and not(i[0] in arch_count['noarch']):
-            print(i, file = f)
+            print(f'| {i[0]} | {i[1]} | ', file = f)
             counter += 1
         if counter >= 10:
             break
