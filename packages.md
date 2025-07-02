@@ -16,16 +16,16 @@
 
 | Package | Downloads |
 | - | - |
-| aria2 | 5230 | 
 | genenotebook | 4474 | 
 | genoboo | 3376 | 
-| perl-pathtools | 3082 | 
 | sepp | 3060 | 
-| perl-scalar-list-utils | 2236 | 
-| perl-compress-raw-zlib | 2118 | 
-| perl-compress-raw-bzip2 | 2090 | 
-| perl-encode | 2083 | 
-| perl-extutils-makemaker | 1894 | 
+| mentalist | 1715 | 
+| rscape | 1445 | 
+| dashing | 1242 | 
+| trimadap | 1184 | 
+| coverm | 1078 | 
+| lambda | 921 | 
+| locarna | 907 | 
 # First 10 missing packages in osx-arm64 by osx-64 rank
 ## last 7 days
 
