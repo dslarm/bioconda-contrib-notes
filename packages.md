@@ -2,42 +2,42 @@
 ## last 7 days
 |linux-64 | noarch | osx-64 | linux-aarch64 | osx-arm64 | 
 |-|-|-|-|-|
-|('pysam', 42811) |('dxpy', 11622) |('pysam', 30482) |('harpy', 18226) |('pysam', 4747) |
-|('samtools', 28743) |('picard', 9823) |('meme', 17429) |('pysam', 6569) |('last', 2554) |
-|('htslib', 23799) |('snakemake-minimal', 7499) |('last', 14878) |('last', 3115) |('htslib', 1045) |
-|('harpy', 18417) |('bioconductor-biocgenerics', 6873) |('bowtie2', 11881) |('htslib', 2454) |('samtools', 941) |
-|('meme', 17862) |('bioconductor-genomeinfodb', 6325) |('bbmap', 11424) |('samtools', 2052) |('diamond', 933) |
-|('bowtie2', 16836) |('bioconductor-genomeinfodbdata', 5665) |('picard', 10811) |('star', 1946) |('bwa', 768) |
-|('last', 16356) |('metaphlan', 5332) |('peptide-shaker', 9709) |('ucsc-fatotwobit', 1640) |('fasttree', 595) |
-|('bedtools', 14625) |('bioconductor-summarizedexperiment', 5254) |('samtools', 9574) |('ucsc-wigtobigwig', 1309) |('hmmer', 591) |
-|('bbmap', 13069) |('gatk4-spark', 5188) |('diamond', 8022) |('ucsc-bedgraphtobigwig', 1262) |('raxml', 556) |
+|('pysam', 42184) |('dxpy', 11401) |('pysam', 30255) |('harpy', 18064) |('pysam', 4725) |
+|('samtools', 27242) |('picard', 9891) |('meme', 17191) |('pysam', 6526) |('last', 2547) |
+|('htslib', 22352) |('snakemake-minimal', 7533) |('last', 14822) |('last', 3108) |('htslib', 1022) |
+|('harpy', 18271) |('bioconductor-biocgenerics', 6767) |('bowtie2', 11743) |('htslib', 2510) |('diamond', 942) |
+|('meme', 17840) |('bioconductor-genomeinfodb', 6240) |('bbmap', 11362) |('samtools', 2109) |('samtools', 919) |
+|('bowtie2', 16407) |('bioconductor-genomeinfodbdata', 5582) |('picard', 10755) |('star', 2034) |('bwa', 787) |
+|('last', 16140) |('metaphlan', 5238) |('peptide-shaker', 9667) |('ucsc-fatotwobit', 1620) |('hmmer', 598) |
+|('bedtools', 13384) |('snakemake', 5157) |('samtools', 9467) |('ucsc-wigtobigwig', 1278) |('fasttree', 589) |
+|('bbmap', 12978) |('gatk4-spark', 5152) |('diamond', 7972) |('ucsc-bedgraphtobigwig', 1247) |('raxml', 558) |
 # First 10 missing packages in linux-aarch64 by linux-x86_64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| genenotebook | 4464 | 
-| genoboo | 3357 | 
-| sepp | 2961 | 
-| nwalign3 | 1969 | 
-| mentalist | 1701 | 
-| rscape | 1438 | 
-| trimadap | 1162 | 
-| dashing | 1071 | 
-| coverm | 948 | 
-| lambda | 919 | 
+| genenotebook | 4417 | 
+| genoboo | 3336 | 
+| sepp | 2912 | 
+| nwalign3 | 1988 | 
+| mentalist | 1721 | 
+| rscape | 1408 | 
+| trimadap | 1144 | 
+| lambda | 913 | 
+| locarna | 873 | 
+| dashing | 829 | 
 # First 10 missing packages in osx-arm64 by osx-64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| r-saige | 5365 | 
-| genenotebook | 4844 | 
-| htseq | 4600 | 
-| prophyle | 4452 | 
-| genoboo | 3454 | 
-| augustus | 3385 | 
-| cooltools | 3039 | 
-| unicycler | 2719 | 
-| slow5tools | 2678 | 
-| genometools-genometools | 2469 | 
+| r-saige | 5337 | 
+| genenotebook | 4769 | 
+| htseq | 4586 | 
+| prophyle | 4377 | 
+| genoboo | 3415 | 
+| augustus | 3373 | 
+| cooltools | 3022 | 
+| unicycler | 2700 | 
+| slow5tools | 2690 | 
+| genometools-genometools | 2427 | 
