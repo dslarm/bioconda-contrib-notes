@@ -2,42 +2,42 @@
 ## last 7 days
 |linux-64 | noarch | osx-64 | linux-aarch64 | osx-arm64 | 
 |-|-|-|-|-|
-|('pysam', 40269) |('dxpy', 11473) |('pysam', 30698) |('harpy', 18065) |('pysam', 4859) |
-|('samtools', 27042) |('snakemake-minimal', 8918) |('meme', 17193) |('pysam', 6621) |('last', 2572) |
-|('htslib', 21975) |('picard', 8796) |('last', 15099) |('htslib', 3874) |('htslib', 1061) |
-|('harpy', 18516) |('snakemake', 7451) |('bowtie2', 11830) |('samtools', 3295) |('samtools', 1052) |
-|('meme', 17689) |('snakemake-interface-common', 6804) |('bbmap', 11450) |('star', 3052) |('diamond', 950) |
-|('last', 16228) |('snakemake-interface-report-plugins', 6399) |('picard', 10917) |('last', 3011) |('bwa', 767) |
-|('bowtie2', 15240) |('snakemake-interface-executor-plugins', 6287) |('peptide-shaker', 9937) |('ncbi-vdb', 2221) |('hmmer', 622) |
-|('bedtools', 13371) |('snakemake-interface-storage-plugins', 6029) |('samtools', 9812) |('perl-alien-build', 2126) |('fasttree', 505) |
-|('bbmap', 13051) |('metaphlan', 5152) |('diamond', 8010) |('perl-alien-libxml2', 1994) |('raxml', 465) |
+|('pysam', 40005) |('dxpy', 11349) |('pysam', 30799) |('harpy', 18067) |('pysam', 4861) |
+|('samtools', 27733) |('picard', 8797) |('meme', 17174) |('pysam', 6675) |('last', 2579) |
+|('htslib', 23252) |('snakemake-minimal', 7424) |('last', 15169) |('htslib', 3621) |('htslib', 1116) |
+|('harpy', 18538) |('snakemake', 5792) |('bowtie2', 11901) |('samtools', 3052) |('samtools', 1091) |
+|('meme', 17730) |('snakemake-interface-common', 5367) |('bbmap', 11500) |('last', 3050) |('diamond', 1001) |
+|('last', 16138) |('snakemake-interface-report-plugins', 5213) |('picard', 10919) |('star', 2807) |('bwa', 777) |
+|('bowtie2', 15037) |('metaphlan', 5111) |('peptide-shaker', 10027) |('ncbi-vdb', 1946) |('hmmer', 633) |
+|('bedtools', 13399) |('snakemake-interface-executor-plugins', 5064) |('samtools', 9876) |('perl-alien-build', 1860) |('fasttree', 505) |
+|('bbmap', 13325) |('gatk4-spark', 5053) |('diamond', 7968) |('perl-alien-libxml2', 1757) |('raxml', 453) |
 # First 10 missing packages in linux-aarch64 by linux-x86_64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| genenotebook | 4388 | 
-| genoboo | 3447 | 
-| sepp | 3086 | 
-| mentalist | 1667 | 
-| trimadap | 1148 | 
-| lambda | 957 | 
-| locarna | 847 | 
-| rnftools | 800 | 
-| novoalign | 793 | 
-| ra | 775 | 
+| genenotebook | 4365 | 
+| genoboo | 3437 | 
+| sepp | 3059 | 
+| mentalist | 1655 | 
+| trimadap | 1135 | 
+| lambda | 930 | 
+| locarna | 824 | 
+| rnftools | 777 | 
+| ra | 760 | 
+| novoalign | 756 | 
 # First 10 missing packages in osx-arm64 by osx-64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| r-saige | 5345 | 
-| genenotebook | 4812 | 
-| htseq | 4486 | 
-| prophyle | 4406 | 
-| genoboo | 3563 | 
-| cooltools | 3008 | 
-| unicycler | 2705 | 
-| slow5tools | 2665 | 
-| genometools-genometools | 2504 | 
-| sepp | 1925 | 
+| r-saige | 5338 | 
+| genenotebook | 4810 | 
+| htseq | 4506 | 
+| prophyle | 4407 | 
+| genoboo | 3583 | 
+| cooltools | 2994 | 
+| unicycler | 2693 | 
+| slow5tools | 2674 | 
+| genometools-genometools | 2489 | 
+| sepp | 1909 | 
