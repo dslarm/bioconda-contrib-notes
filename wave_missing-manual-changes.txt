@@ -1,4 +1,4 @@
-Missing packages: 59 (was 90)
+Missing packages: 58 (was 90)
 Incomplete pipelines: 29 (was 41) of 101
 
 PIPELINES SUMMARY:
@@ -24,7 +24,7 @@ PIPELINES SUMMARY:
 059_genomeassembler.yaml : ['bioconda::busco', 'conda-forge::quarto', 'bioconda::lima', 'bioconda::sepp']
 061_pathogensurveillance.yaml : ['bioconda::busco', 'conda-forge::quarto', 'bioconda::gcnvkernel', 'bioconda::sepp']
 063_variantbenchmarking.yaml : ['bioconda::hap.py', 'bioconda::svanalyzer', 'bioconda::svync']
-068_phageannotator.yaml : ['bioconda::coverm', 'bioconda::genomad', 'bioconda::iphop', 'bioconda::pharokka']
+068_phageannotator.yaml : ['bioconda::genomad', 'bioconda::iphop', 'bioconda::pharokka']
 070_molkart.yaml : ['conda-forge::stardist', 'conda-forge::tensorflow']
 071_mnaseseq.yaml : ['bioconda::danpos']
 072_denovotranscript.yaml : ['bioconda::busco', 'bioconda::rnaquast']
