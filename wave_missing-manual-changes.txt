@@ -1,4 +1,4 @@
-Missing packages: 58 (was 90)
+Missing packages: 57 (was 90)
 Incomplete pipelines: 29 (was 41) of 101
 
 PIPELINES SUMMARY:
@@ -12,7 +12,7 @@ PIPELINES SUMMARY:
 020_funcscan.yaml : ['bioconda::amplify', 'bioconda::deeparg', 'bioconda::deepbgc', 'bioconda::fargene', 'bioconda::interproscan', 'bioconda::macrel']
 023_bacass.yaml : ['bioconda::busco', 'bioconda::dfast', 'bioconda::nanopolish', 'bioconda::sepp']
 027_bactmap.yaml : ['bioconda::clair3']
-031_circrna.yaml : ['bioconda::find_circ', 'bioconda::mapsplice']
+031_circrna.yaml : ['bioconda::find_circ']
 033_epitopeprediction.yaml : ['bioconda::epytope', 'bioconda::mhcflurry', 'bioconda::mhcnuggets']
 034_rnavar.yaml : ['bioconda::gcnvkernel']
 036_proteomicslfq.yaml : ['openms::openms']
@@ -46,7 +46,6 @@ bioconda::bwa-meme : ['016_raredisease.yaml']
 bioconda::checkm-genome : ['003_mag.yaml']
 bioconda::checkm2 : ['003_mag.yaml']
 bioconda::clair3 : ['027_bactmap.yaml']
-bioconda::coverm : ['068_phageannotator.yaml']
 bioconda::danpos : ['071_mnaseseq.yaml']
 bioconda::deeparg : ['020_funcscan.yaml']
 bioconda::deepbgc : ['020_funcscan.yaml']
@@ -67,7 +66,6 @@ bioconda::iphop : ['068_phageannotator.yaml']
 bioconda::isoseq : ['039_isoseq.yaml']
 bioconda::lima : ['059_genomeassembler.yaml', '039_isoseq.yaml']
 bioconda::macrel : ['020_funcscan.yaml']
-bioconda::mapsplice : ['031_circrna.yaml']
 bioconda::mhcflurry : ['033_epitopeprediction.yaml']
 bioconda::mhcnuggets : ['033_epitopeprediction.yaml']
 bioconda::mulled-v2-ab48c38c3be93a696d7773767d9287b4a0d3bf19 : ['073_tfactivity.yaml']
@@ -94,6 +92,8 @@ conda-forge::tensorflow : ['070_molkart.yaml']
 conda-forge::tiara : ['003_mag.yaml']
 openms::openms : ['036_proteomicslfq.yaml']
 
+* FIXED * bioconda::mapsplice : ['031_circrna.yaml']
+* FIXED * bioconda::coverm : ['068_phageannotator.yaml']
 * FIXED * bioconda::easypqp : ['060_diaproteomics.yaml']
 * FIXED * bioconda::openms-thirdparty : ['037_mhcquant.yaml', '060_diaproteomics.yaml']
 * FIXED * bioconda::openms : ['037_mhcquant.yaml']
