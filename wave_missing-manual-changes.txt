@@ -1,4 +1,4 @@
-Missing packages: 57 (was 90)
+Missing packages: 55 (was 90)
 Incomplete pipelines: 29 (was 41) of 101
 
 PIPELINES SUMMARY:
@@ -31,15 +31,13 @@ PIPELINES SUMMARY:
 073_tfactivity.yaml : ['conda-forge::mulled-v2-2076f4a3fb468a04063c9e6b7747a630abb457f6', 'bioconda::mulled-v2-ab48c38c3be93a696d7773767d9287b4a0d3bf19', 'bioconda::mulled-v2-cd5249a47f81a81b2e7785172c240f12497f55b4']
 075_coproid.yaml : ['conda-forge::quarto']
 097_genomeqc.yaml : ['bioconda::busco', 'bioconda::sepp']
-099_methylarray.yaml : ['bioconda::bioconductor-champ', 'bioconda::bioconductor-dmrcate', 'bioconda::bioconductor-missmethyl']
+099_methylarray.yaml : ['bioconda::bioconductor-champ']
 
 PACKAGES SUMMARY:
 
 bioconda::amplify : ['020_funcscan.yaml']
 bioconda::artic : ['014_viralrecon.yaml']
 bioconda::bioconductor-champ : ['099_methylarray.yaml']
-bioconda::bioconductor-dmrcate : ['099_methylarray.yaml']
-bioconda::bioconductor-missmethyl : ['099_methylarray.yaml']
 bioconda::bioinfoorphanage-grohmm : ['055_nascent.yaml']
 bioconda::busco : ['059_genomeassembler.yaml', '061_pathogensurveillance.yaml', '097_genomeqc.yaml', '023_bacass.yaml', '072_denovotranscript.yaml']
 bioconda::bwa-meme : ['016_raredisease.yaml']
@@ -92,6 +90,8 @@ conda-forge::tensorflow : ['070_molkart.yaml']
 conda-forge::tiara : ['003_mag.yaml']
 openms::openms : ['036_proteomicslfq.yaml']
 
+* FIXED * bioconda::bioconductor-missmethyl : ['099_methylarray.yaml']
+* FIXED * bioconda::bioconductor-dmrcate : ['099_methylarray.yaml']
 * FIXED * bioconda::mapsplice : ['031_circrna.yaml']
 * FIXED * bioconda::coverm : ['068_phageannotator.yaml']
 * FIXED * bioconda::easypqp : ['060_diaproteomics.yaml']
