@@ -2,42 +2,42 @@
 ## last 7 days
 |linux-64 | noarch | osx-64 | linux-aarch64 | osx-arm64 | 
 |-|-|-|-|-|
-|('pysam', 41141) |('dxpy', 11702) |('pysam', 31152) |('harpy', 18453) |('pysam', 5269) |
-|('samtools', 27179) |('picard', 10543) |('meme', 17330) |('pysam', 7285) |('last', 2574) |
-|('htslib', 24225) |('fastqc', 9312) |('last', 15381) |('htslib', 4129) |('htslib', 1535) |
-|('harpy', 19070) |('snakemake-minimal', 7411) |('bowtie2', 11864) |('samtools', 3584) |('samtools', 1511) |
-|('meme', 17978) |('nextflow', 5755) |('bbmap', 11363) |('last', 3151) |('bwa', 1214) |
-|('last', 16226) |('snakemake', 5590) |('picard', 10760) |('star', 3087) |('diamond', 1101) |
-|('bowtie2', 14913) |('gatk4-spark', 5259) |('samtools', 10123) |('bwa', 1720) |('hmmer', 593) |
-|('bbmap', 13130) |('snakemake-interface-report-plugins', 5202) |('peptide-shaker', 10109) |('ucsc-fatotwobit', 1626) |('fasttree', 539) |
-|('bcftools', 12548) |('snakemake-interface-common', 5155) |('diamond', 8275) |('ucsc-wigtobigwig', 1306) |('raxml', 535) |
+|('pysam', 40543) |('dxpy', 11499) |('pysam', 31048) |('harpy', 18426) |('pysam', 5346) |
+|('samtools', 26785) |('picard', 10417) |('meme', 17238) |('pysam', 7353) |('last', 2580) |
+|('htslib', 23910) |('fastqc', 9634) |('last', 15217) |('htslib', 4586) |('htslib', 1581) |
+|('harpy', 18876) |('snakemake-minimal', 7444) |('bowtie2', 11733) |('samtools', 3979) |('samtools', 1566) |
+|('meme', 17596) |('nextflow', 6072) |('bbmap', 11338) |('star', 3465) |('bwa', 1289) |
+|('last', 16037) |('snakemake', 5606) |('picard', 10771) |('last', 3156) |('diamond', 1115) |
+|('bowtie2', 14677) |('snakemake-interface-report-plugins', 5230) |('samtools', 10155) |('bwa', 1874) |('hmmer', 610) |
+|('bbmap', 13085) |('gatk4-spark', 5191) |('peptide-shaker', 10041) |('ucsc-fatotwobit', 1623) |('raxml', 537) |
+|('bcftools', 12346) |('snakemake-interface-common', 5156) |('diamond', 8203) |('ucsc-wigtobigwig', 1301) |('fasttree', 536) |
 # First 10 missing packages in linux-aarch64 by linux-x86_64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| genenotebook | 4338 | 
-| genoboo | 3497 | 
-| sepp | 2796 | 
-| mentalist | 1697 | 
-| trimadap | 1205 | 
-| pbtk | 1126 | 
-| lambda | 957 | 
-| rnftools | 835 | 
-| novoalign | 831 | 
-| locarna | 819 | 
+| genenotebook | 4264 | 
+| genoboo | 3464 | 
+| sepp | 2769 | 
+| mentalist | 1635 | 
+| trimadap | 1192 | 
+| pbtk | 1127 | 
+| lambda | 925 | 
+| rnftools | 816 | 
+| lima | 807 | 
+| locarna | 803 | 
 # First 10 missing packages in osx-arm64 by osx-64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| r-saige | 5393 | 
-| genenotebook | 4827 | 
-| prophyle | 4364 | 
-| genoboo | 3670 | 
-| cooltools | 2985 | 
-| slow5tools | 2719 | 
-| unicycler | 2655 | 
-| genometools-genometools | 2471 | 
-| yacrd | 1865 | 
-| gmap | 1845 | 
+| r-saige | 5269 | 
+| genenotebook | 4797 | 
+| prophyle | 4354 | 
+| genoboo | 3658 | 
+| cooltools | 2968 | 
+| slow5tools | 2695 | 
+| unicycler | 2679 | 
+| genometools-genometools | 2480 | 
+| yacrd | 1870 | 
+| gmap | 1823 | 
