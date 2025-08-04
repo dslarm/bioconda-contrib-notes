@@ -1,4 +1,4 @@
-Missing packages: 55 (was 90)
+Missing packages: 54 (was 90)
 Incomplete pipelines: 29 (was 41) of 101
 
 PIPELINES SUMMARY:
@@ -8,7 +8,7 @@ PIPELINES SUMMARY:
 011_rnafusion.yaml : ['bioconda::fusioncatcher', 'bioconda::gcnvkernel', 'bioconda::star-fusion']
 014_viralrecon.yaml : ['bioconda::artic']
 016_raredisease.yaml : ['bioconda::bwa-meme']
-018_pangenome.yaml : ['bioconda::odgi', 'bioconda::pggb', 'bioconda::smoothxg']
+018_pangenome.yaml : ['bioconda::pggb', 'bioconda::smoothxg']
 020_funcscan.yaml : ['bioconda::amplify', 'bioconda::deeparg', 'bioconda::deepbgc', 'bioconda::fargene', 'bioconda::interproscan', 'bioconda::macrel']
 023_bacass.yaml : ['bioconda::busco', 'bioconda::dfast', 'bioconda::nanopolish', 'bioconda::sepp']
 027_bactmap.yaml : ['bioconda::clair3']
@@ -69,7 +69,6 @@ bioconda::mhcnuggets : ['033_epitopeprediction.yaml']
 bioconda::mulled-v2-ab48c38c3be93a696d7773767d9287b4a0d3bf19 : ['073_tfactivity.yaml']
 bioconda::mulled-v2-cd5249a47f81a81b2e7785172c240f12497f55b4 : ['073_tfactivity.yaml']
 bioconda::nanopolish : ['023_bacass.yaml']
-bioconda::odgi : ['018_pangenome.yaml']
 bioconda::pggb : ['018_pangenome.yaml']
 bioconda::pharokka : ['068_phageannotator.yaml']
 bioconda::piranha : ['051_clipseq.yaml']
@@ -90,6 +89,7 @@ conda-forge::tensorflow : ['070_molkart.yaml']
 conda-forge::tiara : ['003_mag.yaml']
 openms::openms : ['036_proteomicslfq.yaml']
 
+* FIXED * bioconda::odgi : ['018_pangenome.yaml']
 * FIXED * bioconda::bioconductor-missmethyl : ['099_methylarray.yaml']
 * FIXED * bioconda::bioconductor-dmrcate : ['099_methylarray.yaml']
 * FIXED * bioconda::mapsplice : ['031_circrna.yaml']
