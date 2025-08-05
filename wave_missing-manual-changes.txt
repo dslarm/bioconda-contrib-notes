@@ -1,9 +1,9 @@
-Missing packages: 54 (was 90)
+Missing packages: 52 (was 90)
 Incomplete pipelines: 29 (was 41) of 101
 
 PIPELINES SUMMARY:
 
-003_mag.yaml : ['bioconda::checkm-genome', 'bioconda::checkm2', 'conda-forge::tiara', 'bioconda::genomad', 'bioconda::gtdbtk']
+003_mag.yaml : ['bioconda::checkm2', 'conda-forge::tiara', 'bioconda::genomad']
 010_eager.yaml : ['bioconda::sequencetools']
 011_rnafusion.yaml : ['bioconda::fusioncatcher', 'bioconda::gcnvkernel', 'bioconda::star-fusion']
 014_viralrecon.yaml : ['bioconda::artic']
@@ -41,7 +41,6 @@ bioconda::bioconductor-champ : ['099_methylarray.yaml']
 bioconda::bioinfoorphanage-grohmm : ['055_nascent.yaml']
 bioconda::busco : ['059_genomeassembler.yaml', '061_pathogensurveillance.yaml', '097_genomeqc.yaml', '023_bacass.yaml', '072_denovotranscript.yaml']
 bioconda::bwa-meme : ['016_raredisease.yaml']
-bioconda::checkm-genome : ['003_mag.yaml']
 bioconda::checkm2 : ['003_mag.yaml']
 bioconda::clair3 : ['027_bactmap.yaml']
 bioconda::danpos : ['071_mnaseseq.yaml']
@@ -57,7 +56,6 @@ bioconda::gcnvkernel : ['011_rnafusion.yaml', '034_rnavar.yaml', '061_pathogensu
 bioconda::genomad : ['003_mag.yaml', '068_phageannotator.yaml']
 bioconda::glimpse-bio : ['056_phaseimpute.yaml']
 bioconda::gs-tama : ['039_isoseq.yaml']
-bioconda::gtdbtk : ['003_mag.yaml']
 bioconda::hap.py : ['063_variantbenchmarking.yaml']
 bioconda::interproscan : ['020_funcscan.yaml']
 bioconda::iphop : ['068_phageannotator.yaml']
@@ -89,6 +87,8 @@ conda-forge::tensorflow : ['070_molkart.yaml']
 conda-forge::tiara : ['003_mag.yaml']
 openms::openms : ['036_proteomicslfq.yaml']
 
+* FIXED * bioconda::checkm-genome : ['003_mag.yaml']
+* FIXED * bioconda::gtdbtk : ['003_mag.yaml']
 * FIXED * bioconda::odgi : ['018_pangenome.yaml']
 * FIXED * bioconda::bioconductor-missmethyl : ['099_methylarray.yaml']
 * FIXED * bioconda::bioconductor-dmrcate : ['099_methylarray.yaml']
