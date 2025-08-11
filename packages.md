@@ -2,42 +2,42 @@
 ## last 7 days
 |linux-64 | noarch | osx-64 | linux-aarch64 | osx-arm64 | 
 |-|-|-|-|-|
-|('pysam', 43371) |('dxpy', 11198) |('pysam', 30513) |('harpy', 18008) |('pysam', 5687) |
-|('htslib', 29523) |('picard', 9070) |('meme', 16859) |('pysam', 7649) |('last', 2492) |
-|('samtools', 26268) |('fastqc', 7594) |('last', 14933) |('htslib', 3307) |('samtools', 1627) |
-|('harpy', 18369) |('bioconductor-biocgenerics', 5385) |('bowtie2', 11361) |('last', 3063) |('htslib', 1602) |
-|('bcftools', 17430) |('gatk4-spark', 4955) |('bbmap', 11106) |('samtools', 3020) |('bwa', 1324) |
-|('meme', 17261) |('metaphlan', 4918) |('picard', 10375) |('star', 2579) |('diamond', 1274) |
-|('last', 15649) |('snakemake-minimal', 4863) |('samtools', 10225) |('bwa', 1814) |('hmmer', 568) |
-|('bowtie2', 14164) |('bioconductor-genomeinfodb', 4738) |('peptide-shaker', 9534) |('ucsc-fatotwobit', 1655) |('bcftools', 547) |
-|('bedtools', 12945) |('perl-io-zlib', 4670) |('diamond', 8174) |('diamond', 1304) |('fasttree', 478) |
+|('pysam', 43428) |('dxpy', 11356) |('pysam', 30544) |('harpy', 18097) |('pysam', 5649) |
+|('htslib', 32637) |('picard', 9152) |('meme', 16826) |('pysam', 7655) |('last', 2482) |
+|('samtools', 26738) |('fastqc', 7716) |('last', 14863) |('htslib', 3155) |('samtools', 1624) |
+|('bcftools', 20335) |('bioconductor-biocgenerics', 5353) |('bowtie2', 11452) |('last', 3081) |('htslib', 1615) |
+|('harpy', 18355) |('snakemake-minimal', 5122) |('bbmap', 11105) |('samtools', 2801) |('bwa', 1323) |
+|('meme', 17201) |('metaphlan', 5011) |('picard', 10387) |('star', 2428) |('diamond', 1261) |
+|('last', 15593) |('gatk4-spark', 4989) |('samtools', 10179) |('bwa', 1669) |('bcftools', 560) |
+|('bowtie2', 14248) |('perl-archive-tar', 4966) |('peptide-shaker', 9600) |('ucsc-fatotwobit', 1643) |('hmmer', 551) |
+|('bedtools', 13117) |('perl-io-zlib', 4945) |('diamond', 8113) |('diamond', 1310) |('fasttree', 495) |
 # First 10 missing packages in linux-aarch64 by linux-x86_64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| genenotebook | 4248 | 
-| genoboo | 3368 | 
-| sepp | 2661 | 
-| mentalist | 1648 | 
-| trimadap | 1098 | 
-| lambda | 937 | 
-| locarna | 816 | 
-| rnftools | 783 | 
-| novoalign | 778 | 
-| ra | 726 | 
+| genenotebook | 4236 | 
+| genoboo | 3366 | 
+| sepp | 2690 | 
+| mentalist | 1647 | 
+| trimadap | 1092 | 
+| lambda | 949 | 
+| locarna | 826 | 
+| rnftools | 778 | 
+| novoalign | 773 | 
+| ra | 729 | 
 # First 10 missing packages in osx-arm64 by osx-64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| r-saige | 5226 | 
-| genenotebook | 4747 | 
-| genoboo | 3598 | 
-| sepp | 1838 | 
-| gmap | 1791 | 
-| rsem | 1377 | 
-| bioconductor-mspurity | 987 | 
-| rnftools | 713 | 
-| vt | 710 | 
-| intarna | 699 | 
+| r-saige | 5196 | 
+| genenotebook | 4740 | 
+| genoboo | 3582 | 
+| sepp | 1827 | 
+| gmap | 1785 | 
+| rsem | 1365 | 
+| bioconductor-mspurity | 992 | 
+| vt | 714 | 
+| intarna | 713 | 
+| rnftools | 705 | 
