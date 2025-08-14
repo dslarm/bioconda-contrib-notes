@@ -24,6 +24,7 @@ A successful result is being able to type "conda install {package}" and get the 
 ## What packages are missing?
 
 Check out [packages](./packages.md) to get a prioritized list of packages missing at the moment.
+Alternatively [wave](./wave_missing-manual-changes.txt) is a list of the packages needed to get the nf-core pipelines working.  
 
 ## Getting set up
 
