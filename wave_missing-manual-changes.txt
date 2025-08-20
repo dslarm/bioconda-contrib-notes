@@ -1,4 +1,4 @@
-Missing packages: 52 (was 90)
+Missing packages: 51 (was 90)
 Incomplete pipelines: 29 (was 41) of 101
 
 PIPELINES SUMMARY:
@@ -10,7 +10,7 @@ PIPELINES SUMMARY:
 016_raredisease.yaml : ['bioconda::bwa-meme']
 018_pangenome.yaml : ['bioconda::pggb', 'bioconda::smoothxg']
 020_funcscan.yaml : ['bioconda::amplify', 'bioconda::deeparg', 'bioconda::deepbgc', 'bioconda::fargene', 'bioconda::interproscan', 'bioconda::macrel']
-023_bacass.yaml : ['bioconda::busco', 'bioconda::dfast', 'bioconda::nanopolish', 'bioconda::sepp']
+023_bacass.yaml : ['bioconda::busco', 'bioconda::dfast', 'bioconda::nanopolish']
 027_bactmap.yaml : ['bioconda::clair3']
 031_circrna.yaml : ['bioconda::find_circ']
 033_epitopeprediction.yaml : ['bioconda::epytope', 'bioconda::mhcflurry', 'bioconda::mhcnuggets']
@@ -21,8 +21,8 @@ PIPELINES SUMMARY:
 051_clipseq.yaml : ['bioconda::piranha', 'bioconda::pureclip']
 055_nascent.yaml : ['bioconda::bioinfoorphanage-grohmm']
 056_phaseimpute.yaml : ['bioconda::glimpse-bio', 'bioconda::shapeit5']
-059_genomeassembler.yaml : ['bioconda::busco', 'conda-forge::quarto', 'bioconda::lima', 'bioconda::sepp']
-061_pathogensurveillance.yaml : ['bioconda::busco', 'conda-forge::quarto', 'bioconda::gcnvkernel', 'bioconda::sepp']
+059_genomeassembler.yaml : ['bioconda::busco', 'conda-forge::quarto', 'bioconda::lima']
+061_pathogensurveillance.yaml : ['bioconda::busco', 'conda-forge::quarto', 'bioconda::gcnvkernel']
 063_variantbenchmarking.yaml : ['bioconda::hap.py', 'bioconda::svanalyzer', 'bioconda::svync']
 068_phageannotator.yaml : ['bioconda::genomad', 'bioconda::iphop', 'bioconda::pharokka']
 070_molkart.yaml : ['conda-forge::stardist', 'conda-forge::tensorflow']
@@ -30,7 +30,7 @@ PIPELINES SUMMARY:
 072_denovotranscript.yaml : ['bioconda::busco', 'bioconda::rnaquast']
 073_tfactivity.yaml : ['conda-forge::mulled-v2-2076f4a3fb468a04063c9e6b7747a630abb457f6', 'bioconda::mulled-v2-ab48c38c3be93a696d7773767d9287b4a0d3bf19', 'bioconda::mulled-v2-cd5249a47f81a81b2e7785172c240f12497f55b4']
 075_coproid.yaml : ['conda-forge::quarto']
-097_genomeqc.yaml : ['bioconda::busco', 'bioconda::sepp']
+097_genomeqc.yaml : ['bioconda::busco']
 099_methylarray.yaml : ['bioconda::bioconductor-champ']
 
 PACKAGES SUMMARY:
@@ -72,7 +72,6 @@ bioconda::pharokka : ['068_phageannotator.yaml']
 bioconda::piranha : ['051_clipseq.yaml']
 bioconda::pureclip : ['051_clipseq.yaml']
 bioconda::rnaquast : ['072_denovotranscript.yaml']
-bioconda::sepp : ['059_genomeassembler.yaml', '061_pathogensurveillance.yaml', '097_genomeqc.yaml', '023_bacass.yaml']
 bioconda::sequencetools : ['010_eager.yaml']
 bioconda::shapeit5 : ['056_phaseimpute.yaml']
 bioconda::smoothxg : ['018_pangenome.yaml']
@@ -87,6 +86,8 @@ conda-forge::tensorflow : ['070_molkart.yaml']
 conda-forge::tiara : ['003_mag.yaml']
 openms::openms : ['036_proteomicslfq.yaml']
 
+
+* FIXED * bioconda::sepp : ['059_genomeassembler.yaml', '061_pathogensurveillance.yaml', '097_genomeqc.yaml', '023_bacass.yaml']
 * FIXED * bioconda::checkm-genome : ['003_mag.yaml']
 * FIXED * bioconda::gtdbtk : ['003_mag.yaml']
 * FIXED * bioconda::odgi : ['018_pangenome.yaml']
