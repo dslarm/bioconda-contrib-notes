@@ -1,4 +1,4 @@
-Missing packages: 45 (was 90)
+Missing packages: 44 (was 90)
 Incomplete pipelines: 27 (was 41) of 101
 
 PIPELINES SUMMARY:
@@ -17,7 +17,7 @@ PIPELINES SUMMARY:
 036_proteomicslfq.yaml : ['openms::openms']
 039_isoseq.yaml : ['bioconda::gs-tama', 'bioconda::isoseq', 'bioconda::lima']
 045_metatdenovo.yaml : ['bioconda::diamond:2.1.10', 'bioconda::transrate']
-051_clipseq.yaml : ['bioconda::piranha', 'bioconda::pureclip']
+051_clipseq.yaml : ['bioconda::piranha']
 055_nascent.yaml : ['bioconda::bioinfoorphanage-grohmm']
 056_phaseimpute.yaml : ['bioconda::glimpse-bio', 'bioconda::shapeit5']
 059_genomeassembler.yaml : ['conda-forge::quarto', 'bioconda::lima']
@@ -62,7 +62,6 @@ bioconda::mulled-v2-cd5249a47f81a81b2e7785172c240f12497f55b4 : ['073_tfactivity.
 bioconda::pggb : ['018_pangenome.yaml']
 bioconda::pharokka : ['068_phageannotator.yaml']
 bioconda::piranha : ['051_clipseq.yaml']
-bioconda::pureclip : ['051_clipseq.yaml']
 bioconda::rnaquast : ['072_denovotranscript.yaml']
 bioconda::sequencetools : ['010_eager.yaml']
 bioconda::shapeit5 : ['056_phaseimpute.yaml']
@@ -77,6 +76,8 @@ conda-forge::stardist : ['070_molkart.yaml']
 conda-forge::tiara : ['003_mag.yaml']
 openms::openms : ['036_proteomicslfq.yaml']
 
+
+* FIXED * bioconda::pureclip : ['051_clipseq.yaml']
 * FIXED * bioconda::deepbgc : ['020_funcscan.yaml']
 * FIXED * bioconda::dfast : ['023_bacass.yaml']
 * FIXED * bioconda::genomad : ['003_mag.yaml', '068_phageannotator.yaml']
