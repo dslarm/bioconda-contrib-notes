@@ -4,7 +4,7 @@ import os
 import matplotlib.pyplot as plt
 
 MAX_PLOTS=200
-MAA=14
+MAA=7
 
 os.system("git clone https://github.com/bioconda/bioconda-stats")
 os.chdir("bioconda-stats")
