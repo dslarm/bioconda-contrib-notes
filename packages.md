@@ -2,42 +2,42 @@
 ## last 7 days
 |linux-64 | osx-64 | noarch | linux-aarch64 | osx-arm64 | 
 |-|-|-|-|-|
-|('pysam', 45758) |('pysam', 35239) |('dxpy', 14438) |('harpy', 19782) |('pysam', 6587) |
-|('samtools', 33092) |('meme', 19112) |('picard', 12620) |('pysam', 8646) |('last', 3394) |
-|('htslib', 26751) |('last', 16807) |('metaphlan', 7397) |('last', 3933) |('diamond', 2667) |
-|('harpy', 20402) |('bowtie2', 13000) |('snakemake-minimal', 6615) |('diamond', 2658) |('samtools', 1481) |
-|('meme', 19018) |('bbmap', 12644) |('gatk4-spark', 6142) |('hyphy', 2202) |('htslib', 1431) |
-|('last', 17811) |('picard', 12323) |('bioconductor-biocgenerics', 6106) |('htslib', 1905) |('hyphy', 1340) |
-|('bowtie2', 16643) |('samtools', 11260) |('bioconductor-genomeinfodb', 5880) |('ucsc-fatotwobit', 1775) |('bwa', 1022) |
-|('bedtools', 14544) |('peptide-shaker', 11066) |('bioconductor-genomeinfodbdata', 5581) |('samtools', 1710) |('libcifpp', 1014) |
-|('bbmap', 14453) |('diamond', 10297) |('fastqc', 5332) |('sepp', 1644) |('fermi2', 797) |
+|('pysam', 45081) |('pysam', 34938) |('dxpy', 14413) |('harpy', 20073) |('pysam', 6558) |
+|('samtools', 32443) |('meme', 18917) |('picard', 12171) |('pysam', 8659) |('last', 3384) |
+|('htslib', 26008) |('last', 16856) |('metaphlan', 7354) |('last', 3994) |('diamond', 2724) |
+|('harpy', 20506) |('bowtie2', 12917) |('snakemake-minimal', 6779) |('diamond', 2779) |('samtools', 1466) |
+|('meme', 18969) |('bbmap', 12655) |('gatk4-spark', 6065) |('hyphy', 2341) |('hyphy', 1452) |
+|('last', 17741) |('picard', 12230) |('bioconductor-biocgenerics', 5940) |('htslib', 1936) |('htslib', 1433) |
+|('bowtie2', 16506) |('samtools', 11169) |('bioconductor-genomeinfodb', 5721) |('ucsc-fatotwobit', 1805) |('libcifpp', 1027) |
+|('bbmap', 14439) |('peptide-shaker', 11030) |('snakemake', 5423) |('samtools', 1737) |('bwa', 1008) |
+|('bedtools', 14168) |('diamond', 10302) |('bioconductor-genomeinfodbdata', 5394) |('star', 1667) |('fermi2', 794) |
 # First 10 missing packages in linux-aarch64 by linux-x86_64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| genenotebook | 4931 | 
-| genoboo | 4099 | 
-| plink2 | 2382 | 
-| verifybamid2 | 1960 | 
-| mentalist | 1928 | 
+| genenotebook | 4909 | 
+| genoboo | 4076 | 
+| plink2 | 2203 | 
+| mentalist | 1899 | 
+| verifybamid2 | 1636 | 
 | lambda | 1054 | 
 | novoalign | 876 | 
-| unifrac | 708 | 
-| pbtk | 618 | 
-| unifrac-binaries | 612 | 
+| unifrac | 730 | 
+| unifrac-binaries | 625 | 
+| pbtk | 574 | 
 # First 10 missing packages in osx-arm64 by osx-64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| sepp | 5572 | 
-| genenotebook | 5420 | 
-| genoboo | 4343 | 
-| lambda | 890 | 
-| comet-ms | 653 | 
-| gecode | 632 | 
-| gemini | 506 | 
-| phyml | 465 | 
-| clonalframeml | 436 | 
-| hatchet | 318 | 
+| sepp | 5512 | 
+| genenotebook | 5397 | 
+| genoboo | 4272 | 
+| lambda | 870 | 
+| comet-ms | 650 | 
+| gecode | 646 | 
+| gemini | 508 | 
+| phyml | 463 | 
+| clonalframeml | 431 | 
+| hatchet | 373 | 
