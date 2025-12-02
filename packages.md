@@ -2,42 +2,42 @@
 ## last 7 days
 |linux-64 | osx-64 | noarch | linux-aarch64 | osx-arm64 | 
 |-|-|-|-|-|
-|('pysam', 42311) |('pysam', 33282) |('dxpy', 13302) |('harpy', 18022) |('pysam', 6027) |
-|('samtools', 28881) |('meme', 18380) |('snakemake-minimal', 10234) |('pysam', 7988) |('last', 3461) |
-|('htslib', 26079) |('last', 15919) |('picard', 10005) |('last', 4096) |('diamond', 2513) |
-|('harpy', 18777) |('bowtie2', 12114) |('snakemake-interface-common', 7077) |('diamond', 2555) |('hyphy', 1449) |
-|('meme', 18384) |('bbmap', 11870) |('snakemake-interface-executor-plugins', 6997) |('hyphy', 2258) |('samtools', 1325) |
-|('last', 16718) |('picard', 11634) |('snakemake-interface-report-plugins', 6826) |('star', 1798) |('htslib', 1265) |
-|('bowtie2', 15515) |('peptide-shaker', 10310) |('snakemake', 6813) |('htslib', 1791) |('fasttree', 925) |
-|('blast', 14153) |('samtools', 9905) |('snakemake-interface-storage-plugins', 6657) |('ucsc-fatotwobit', 1655) |('bwa', 911) |
-|('diamond', 14018) |('diamond', 9728) |('metaphlan', 6631) |('samtools', 1610) |('libcifpp', 885) |
+|('pysam', 42572) |('pysam', 33478) |('dxpy', 13430) |('harpy', 18179) |('pysam', 6040) |
+|('samtools', 28434) |('meme', 18406) |('snakemake-minimal', 10247) |('pysam', 8026) |('last', 3475) |
+|('htslib', 26097) |('last', 16089) |('picard', 10075) |('last', 4107) |('diamond', 2566) |
+|('harpy', 19015) |('bowtie2', 12223) |('snakemake-interface-common', 7014) |('diamond', 2564) |('hyphy', 1464) |
+|('meme', 18481) |('bbmap', 11946) |('snakemake-interface-executor-plugins', 6958) |('hyphy', 2307) |('samtools', 1367) |
+|('last', 16816) |('picard', 11702) |('snakemake-interface-report-plugins', 6813) |('htslib', 1811) |('htslib', 1300) |
+|('bowtie2', 15791) |('peptide-shaker', 10356) |('snakemake-interface-storage-plugins', 6740) |('star', 1809) |('fasttree', 936) |
+|('blast', 14320) |('samtools', 10085) |('metaphlan', 6683) |('ucsc-fatotwobit', 1694) |('bwa', 904) |
+|('diamond', 14214) |('diamond', 9798) |('snakemake', 6629) |('samtools', 1624) |('libcifpp', 903) |
 # First 10 missing packages in linux-aarch64 by linux-x86_64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| genenotebook | 4607 | 
-| genoboo | 3819 | 
-| mentalist | 1765 | 
-| genomethreader | 1398 | 
-| lambda | 993 | 
-| novoalign | 849 | 
-| plink2 | 823 | 
-| unifrac | 683 | 
-| unifrac-binaries | 548 | 
-| verifybamid2 | 530 | 
+| genenotebook | 4658 | 
+| genoboo | 3852 | 
+| mentalist | 1764 | 
+| genomethreader | 1397 | 
+| lambda | 998 | 
+| plink2 | 870 | 
+| novoalign | 838 | 
+| unifrac | 667 | 
+| verifybamid2 | 567 | 
+| unifrac-binaries | 523 | 
 # First 10 missing packages in osx-arm64 by osx-64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| genenotebook | 5172 | 
-| sepp | 4953 | 
-| genoboo | 3993 | 
-| lambda | 781 | 
+| genenotebook | 5221 | 
+| sepp | 5034 | 
+| genoboo | 4030 | 
+| lambda | 796 | 
 | comet-ms | 617 | 
-| gemini | 502 | 
-| phyml | 423 | 
-| fwdpy11 | 301 | 
+| gemini | 487 | 
+| phyml | 419 | 
+| fwdpy11 | 302 | 
 | r-biodb | 240 | 
-| jcvi | 238 | 
+| jcvi | 237 | 
