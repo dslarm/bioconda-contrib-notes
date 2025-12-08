@@ -2,42 +2,42 @@
 ## last 7 days
 |linux-64 | osx-64 | noarch | linux-aarch64 | osx-arm64 | 
 |-|-|-|-|-|
-|('pysam', 42419) |('pysam', 32664) |('dxpy', 13059) |('harpy', 17952) |('pysam', 5972) |
-|('samtools', 30551) |('meme', 17714) |('picard', 10585) |('pysam', 7735) |('last', 3376) |
-|('htslib', 25514) |('last', 15530) |('metaphlan', 6598) |('last', 3961) |('diamond', 2475) |
-|('harpy', 18364) |('bowtie2', 11765) |('snakemake-minimal', 6159) |('diamond', 2423) |('hyphy', 1413) |
-|('meme', 17892) |('picard', 11473) |('gatk4-spark', 5850) |('hyphy', 2252) |('samtools', 1367) |
-|('last', 16289) |('bbmap', 11432) |('fastqc', 5432) |('htslib', 1752) |('htslib', 1296) |
-|('bowtie2', 15368) |('peptide-shaker', 9977) |('snakemake', 4996) |('star', 1710) |('fasttree', 880) |
-|('bbmap', 13140) |('samtools', 9843) |('star-fusion', 4694) |('ucsc-fatotwobit', 1646) |('libcifpp', 872) |
-|('blast', 12758) |('diamond', 9351) |('perl-json', 4086) |('samtools', 1532) |('bwa', 839) |
+|('pysam', 41506) |('pysam', 32589) |('dxpy', 12918) |('harpy', 18027) |('pysam', 5953) |
+|('samtools', 29493) |('meme', 17562) |('picard', 10536) |('pysam', 7663) |('last', 3374) |
+|('htslib', 24599) |('last', 15475) |('metaphlan', 6620) |('last', 3915) |('diamond', 2434) |
+|('harpy', 18143) |('bowtie2', 11680) |('snakemake-minimal', 6067) |('diamond', 2410) |('hyphy', 1418) |
+|('meme', 17916) |('picard', 11490) |('gatk4-spark', 5827) |('hyphy', 2238) |('samtools', 1341) |
+|('last', 16070) |('bbmap', 11338) |('fastqc', 5289) |('htslib', 1766) |('htslib', 1278) |
+|('bowtie2', 15402) |('peptide-shaker', 9871) |('snakemake', 4872) |('star', 1691) |('libcifpp', 868) |
+|('bbmap', 13017) |('samtools', 9844) |('star-fusion', 4658) |('ucsc-fatotwobit', 1628) |('fasttree', 858) |
+|('blast', 12724) |('diamond', 9248) |('perl-json', 4044) |('samtools', 1504) |('bwa', 822) |
 # First 10 missing packages in linux-aarch64 by linux-x86_64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| genenotebook | 4548 | 
-| genoboo | 3803 | 
-| plink2 | 1745 | 
-| mentalist | 1727 | 
-| verifybamid2 | 1204 | 
-| lambda | 961 | 
-| novoalign | 763 | 
-| unifrac | 593 | 
-| unifrac-binaries | 503 | 
+| genenotebook | 4528 | 
+| genoboo | 3785 | 
+| plink2 | 1751 | 
+| mentalist | 1733 | 
+| verifybamid2 | 1203 | 
+| lambda | 948 | 
+| novoalign | 757 | 
+| unifrac | 608 | 
+| unifrac-binaries | 517 | 
 | perl-db-file | 482 | 
 # First 10 missing packages in osx-arm64 by osx-64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| genenotebook | 5009 | 
-| sepp | 4798 | 
-| genoboo | 3970 | 
+| genenotebook | 4979 | 
+| sepp | 4829 | 
+| genoboo | 3938 | 
 | lambda | 760 | 
-| comet-ms | 605 | 
-| gemini | 460 | 
-| phyml | 435 | 
+| comet-ms | 616 | 
+| gemini | 457 | 
+| phyml | 438 | 
 | fwdpy11 | 285 | 
-| r-biodb | 231 | 
-| jcvi | 230 | 
+| jcvi | 229 | 
+| r-biodb | 228 | 
