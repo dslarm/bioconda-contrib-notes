@@ -2,42 +2,42 @@
 ## last 7 days
 |noarch | linux-64 | osx-64 | linux-aarch64 | osx-arm64 | 
 |-|-|-|-|-|
-|('star-fusion', 6326) |('pysam', 39345) |('pysam', 31788) |('pysam', 7655) |('pysam', 5900) |
-|('snakemake-minimal', 6084) |('htslib', 25355) |('meme', 18008) |('last', 3846) |('last', 3361) |
-|('snakemake', 4706) |('samtools', 24294) |('last', 15411) |('hyphy', 2966) |('diamond', 1994) |
-|('perl-json', 4630) |('meme', 18330) |('bowtie2', 11352) |('htslib', 2099) |('hyphy', 1734) |
-|('bioconductor-biocgenerics', 4493) |('last', 16444) |('htslib', 6798) |('diamond', 1948) |('htslib', 1653) |
-|('perl-list-moreutils', 4280) |('bowtie2', 14796) |('bcftools', 5730) |('sepp', 1435) |('pybigwig', 1278) |
-|('perl-types-serialiser', 4171) |('bcftools', 13226) |('genenotebook', 5002) |('samtools', 1271) |('samtools', 1176) |
-|('bioconductor-genomeinfodb', 4138) |('bedtools', 12404) |('samtools', 4939) |('libcifpp', 1123) |('libcifpp', 1066) |
-|('perl-archive-tar', 4038) |('hmmer', 9648) |('htseq', 4648) |('fasttree', 917) |('fasttree', 907) |
+|('star-fusion', 10087) |('pysam', 62005) |('pysam', 50172) |('pysam', 12252) |('pysam', 9422) |
+|('snakemake-minimal', 9171) |('samtools', 36030) |('meme', 28778) |('last', 6007) |('last', 5279) |
+|('snakemake', 7092) |('htslib', 35285) |('last', 24588) |('hyphy', 4666) |('diamond', 3609) |
+|('perl-json', 7009) |('meme', 29404) |('bowtie2', 18091) |('diamond', 3592) |('hyphy', 2790) |
+|('bioconductor-biocgenerics', 6735) |('last', 26325) |('htslib', 10808) |('htslib', 3293) |('htslib', 2647) |
+|('perl-list-moreutils', 6507) |('bowtie2', 23797) |('bcftools', 9056) |('sepp', 2219) |('pybigwig', 2285) |
+|('bioconductor-genomeinfodb', 6469) |('bedtools', 18470) |('genenotebook', 8053) |('samtools', 1976) |('samtools', 1865) |
+|('multiqc', 6441) |('bcftools', 17232) |('samtools', 8009) |('libcifpp', 1783) |('libcifpp', 1659) |
+|('perl-io-zlib', 6410) |('hmmer', 14287) |('diamond', 7850) |('fasttree', 1521) |('fasttree', 1441) |
 # First 10 missing packages in linux-aarch64 by linux-x86_64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| genenotebook | 4621 | 
-| genoboo | 3750 | 
-| plink2 | 586 | 
-| unifrac | 569 | 
-| pbtk | 529 | 
-| unifrac-binaries | 474 | 
-| regenie | 453 | 
-| perl-db-file | 377 | 
-| lima | 320 | 
-| express | 312 | 
+| genenotebook | 7424 | 
+| genoboo | 6056 | 
+| unifrac | 980 | 
+| pbtk | 931 | 
+| plink2 | 893 | 
+| unifrac-binaries | 759 | 
+| regenie | 695 | 
+| lima | 622 | 
+| perl-db-file | 592 | 
+| earlgrey | 438 | 
 # First 10 missing packages in osx-arm64 by osx-64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| genenotebook | 5002 | 
-| genoboo | 3861 | 
-| sepp | 2910 | 
-| fwdpy11 | 330 | 
-| jcvi | 257 | 
-| hatchet | 230 | 
-| cactus | 200 | 
-| nextgenmap | 197 | 
-| vcfx | 193 | 
-| r-nozzle | 186 | 
+| genenotebook | 8053 | 
+| genoboo | 6204 | 
+| sepp | 4771 | 
+| fwdpy11 | 497 | 
+| jcvi | 389 | 
+| hatchet | 345 | 
+| nextgenmap | 317 | 
+| r-nozzle | 304 | 
+| r-lambda | 281 | 
+| vcfx | 271 | 
