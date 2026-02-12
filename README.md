@@ -112,7 +112,7 @@ bioconda-utils build --packages {package}
 ```
 or to build inside a container:
 ```
-bioconda-utils build  --docker --mulled-test --force  --docker-base-image quay.io/bioconda/bioconda-utils-build-env-cos7-aarch64:3.3.2 --git-range master
+bioconda-utils build  --docker --mulled-test --force  --docker-base-image quay.io/bioconda/bioconda-utils-build-env-cos7-aarch64:4.0.0 --git-range master
 ```
 the latter is the most reliable.
 
