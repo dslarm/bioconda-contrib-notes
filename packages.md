@@ -2,42 +2,42 @@
 ## last 7 days
 |linux-64 | noarch | osx-64 | linux-aarch64 | osx-arm64 | 
 |-|-|-|-|-|
-|('samtools', 57372) |('snakemake-minimal', 9682) |('pysam', 40804) |('pysam', 11971) |('pysam', 9628) |
-|('pysam', 53615) |('star-fusion', 8184) |('meme', 21571) |('last', 5040) |('diamond', 4831) |
-|('htslib', 51311) |('snakemake', 7630) |('last', 19388) |('diamond', 4950) |('last', 4377) |
-|('bcftools', 32666) |('picard', 7572) |('bowtie2', 14174) |('sepp', 4459) |('hyphy', 2553) |
-|('meme', 22702) |('perl-json', 6887) |('htslib', 8687) |('hyphy', 4057) |('libcifpp', 2443) |
-|('last', 21420) |('bioconductor-data-packages', 6876) |('diamond', 8311) |('htslib', 2824) |('htslib', 2198) |
-|('bowtie2', 21190) |('snakemake-interface-storage-plugins', 6759) |('bcftools', 7356) |('samtools', 1807) |('pybigwig', 2028) |
-|('bedtools', 17608) |('snakemake-interface-common', 6629) |('samtools', 6717) |('libcifpp', 1546) |('samtools', 1556) |
-|('vcftools', 17438) |('snakemake-interface-executor-plugins', 6595) |('genenotebook', 6229) |('fasttree', 1268) |('fasttree', 1206) |
+|('samtools', 61799) |('snakemake-minimal', 9584) |('pysam', 38937) |('pysam', 11370) |('pysam', 9231) |
+|('htslib', 52254) |('picard', 8776) |('meme', 20643) |('diamond', 4783) |('diamond', 4629) |
+|('pysam', 51590) |('star-fusion', 7722) |('last', 18375) |('last', 4759) |('last', 4157) |
+|('bcftools', 33057) |('snakemake', 7610) |('bowtie2', 13559) |('sepp', 4214) |('hyphy', 2493) |
+|('meme', 21589) |('bioconductor-data-packages', 7098) |('htslib', 8330) |('hyphy', 3835) |('libcifpp', 2308) |
+|('bowtie2', 20813) |('perl-json', 6766) |('diamond', 7927) |('htslib', 2693) |('htslib', 2077) |
+|('last', 20350) |('snakemake-interface-storage-plugins', 6619) |('bcftools', 7001) |('samtools', 1725) |('pybigwig', 1911) |
+|('vcftools', 17488) |('bioconductor-biocgenerics', 6592) |('samtools', 6453) |('libcifpp', 1481) |('samtools', 1500) |
+|('bedtools', 17316) |('snakemake-interface-common', 6387) |('genenotebook', 5949) |('fasttree', 1211) |('fasttree', 1173) |
 # First 10 missing packages in linux-aarch64 by linux-x86_64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| genenotebook | 5678 | 
-| genoboo | 4430 | 
-| pbtk | 912 | 
-| plink2 | 887 | 
-| unifrac | 745 | 
-| java-jdk | 652 | 
-| unifrac-binaries | 604 | 
-| lima | 594 | 
-| py_nucflag | 482 | 
-| regenie | 443 | 
+| genenotebook | 5411 | 
+| genoboo | 4257 | 
+| pbtk | 925 | 
+| plink2 | 848 | 
+| java-jdk | 772 | 
+| unifrac | 727 | 
+| lima | 609 | 
+| unifrac-binaries | 600 | 
+| py_nucflag | 467 | 
+| express | 400 | 
 # First 10 missing packages in osx-arm64 by osx-64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| genenotebook | 6229 | 
-| genoboo | 4668 | 
-| fwdpy11 | 311 | 
-| r-lambda | 242 | 
-| r-nozzle | 241 | 
-| nextgenmap | 239 | 
+| genenotebook | 5949 | 
+| genoboo | 4449 | 
+| fwdpy11 | 318 | 
+| r-nozzle | 230 | 
+| r-lambda | 229 | 
+| nextgenmap | 229 | 
 | jcvi | 226 | 
-| cactus | 218 | 
-| pygrgl | 207 | 
-| vcfx | 206 | 
+| cactus | 222 | 
+| hatchet | 203 | 
+| pygrgl | 200 | 
