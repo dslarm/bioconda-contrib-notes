@@ -2,42 +2,42 @@
 ## last 7 days
 |linux-64 | noarch | osx-64 | linux-aarch64 | osx-arm64 | 
 |-|-|-|-|-|
-|('samtools', 61799) |('snakemake-minimal', 9584) |('pysam', 38937) |('pysam', 11370) |('pysam', 9231) |
-|('htslib', 52254) |('picard', 8776) |('meme', 20643) |('diamond', 4783) |('diamond', 4629) |
-|('pysam', 51590) |('star-fusion', 7722) |('last', 18375) |('last', 4759) |('last', 4157) |
-|('bcftools', 33057) |('snakemake', 7610) |('bowtie2', 13559) |('sepp', 4214) |('hyphy', 2493) |
-|('meme', 21589) |('bioconductor-data-packages', 7098) |('htslib', 8330) |('hyphy', 3835) |('libcifpp', 2308) |
-|('bowtie2', 20813) |('perl-json', 6766) |('diamond', 7927) |('htslib', 2693) |('htslib', 2077) |
-|('last', 20350) |('snakemake-interface-storage-plugins', 6619) |('bcftools', 7001) |('samtools', 1725) |('pybigwig', 1911) |
-|('vcftools', 17488) |('bioconductor-biocgenerics', 6592) |('samtools', 6453) |('libcifpp', 1481) |('samtools', 1500) |
-|('bedtools', 17316) |('snakemake-interface-common', 6387) |('genenotebook', 5949) |('fasttree', 1211) |('fasttree', 1173) |
+|('samtools', 64495) |('picard', 9476) |('pysam', 37102) |('pysam', 10744) |('pysam', 8766) |
+|('pysam', 49593) |('snakemake-minimal', 9260) |('meme', 19738) |('diamond', 4512) |('diamond', 4383) |
+|('htslib', 48483) |('snakemake', 7428) |('last', 17390) |('last', 4490) |('last', 3948) |
+|('bcftools', 28882) |('star-fusion', 7303) |('bowtie2', 12896) |('sepp', 3972) |('hyphy', 2409) |
+|('meme', 20597) |('bioconductor-data-packages', 7286) |('htslib', 7971) |('hyphy', 3611) |('libcifpp', 2179) |
+|('bowtie2', 20461) |('perl-json', 6971) |('diamond', 7516) |('htslib', 2576) |('htslib', 1950) |
+|('last', 19336) |('bioconductor-biocgenerics', 6712) |('bcftools', 6584) |('samtools', 1633) |('pybigwig', 1779) |
+|('bedtools', 17081) |('perl-io-zlib', 6615) |('samtools', 6172) |('libcifpp', 1410) |('samtools', 1446) |
+|('vcftools', 13523) |('perl-list-moreutils', 6598) |('genenotebook', 5688) |('fasttree', 1153) |('fasttree', 1136) |
 # First 10 missing packages in linux-aarch64 by linux-x86_64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| genenotebook | 5411 | 
-| genoboo | 4257 | 
-| pbtk | 925 | 
-| plink2 | 848 | 
-| java-jdk | 772 | 
-| unifrac | 727 | 
-| lima | 609 | 
-| unifrac-binaries | 600 | 
-| py_nucflag | 467 | 
-| express | 400 | 
+| genenotebook | 5197 | 
+| genoboo | 4080 | 
+| pbtk | 923 | 
+| java-jdk | 869 | 
+| plink2 | 859 | 
+| unifrac | 691 | 
+| lima | 604 | 
+| unifrac-binaries | 571 | 
+| express | 470 | 
+| py_nucflag | 458 | 
 # First 10 missing packages in osx-arm64 by osx-64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| genenotebook | 5949 | 
-| genoboo | 4449 | 
-| fwdpy11 | 318 | 
-| r-nozzle | 230 | 
-| r-lambda | 229 | 
-| nextgenmap | 229 | 
-| jcvi | 226 | 
-| cactus | 222 | 
-| hatchet | 203 | 
-| pygrgl | 200 | 
+| genenotebook | 5688 | 
+| genoboo | 4247 | 
+| fwdpy11 | 321 | 
+| jcvi | 227 | 
+| nextgenmap | 221 | 
+| r-lambda | 217 | 
+| r-nozzle | 215 | 
+| cactus | 207 | 
+| hatchet | 206 | 
+| pygrgl | 188 | 
