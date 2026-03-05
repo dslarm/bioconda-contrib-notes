@@ -2,42 +2,42 @@
 ## last 7 days
 |linux-64 | noarch | osx-64 | linux-aarch64 | osx-arm64 | 
 |-|-|-|-|-|
-|('pysam', 40902) |('bioconductor-biocgenerics', 9874) |('pysam', 31002) |('pysam', 8918) |('pysam', 7271) |
-|('samtools', 31607) |('bioconductor-data-packages', 7411) |('meme', 16637) |('diamond', 3613) |('diamond', 3560) |
-|('htslib', 27319) |('bioconductor-summarizedexperiment', 7345) |('last', 14265) |('last', 3380) |('last', 3283) |
-|('meme', 17473) |('snakemake-minimal', 7090) |('bowtie2', 10625) |('sepp', 3215) |('hyphy', 2142) |
-|('bowtie2', 15852) |('bioconductor-matrixgenerics', 6997) |('htslib', 6491) |('hyphy', 2989) |('libcifpp', 1721) |
-|('last', 15756) |('star-fusion', 6085) |('diamond', 6096) |('htslib', 2313) |('htslib', 1719) |
-|('bedtools', 13477) |('bioconductor-genomeinfodb', 5839) |('bcftools', 5500) |('samtools', 1348) |('pybigwig', 1451) |
-|('bcftools', 12160) |('snakemake', 5815) |('samtools', 4990) |('libcifpp', 1155) |('samtools', 1275) |
-|('diamond', 11214) |('perl-json', 5647) |('genenotebook', 4801) |('fasttree', 1047) |('fasttree', 962) |
+|('pysam', 41676) |('bioconductor-biocgenerics', 10148) |('pysam', 31766) |('pysam', 9131) |('pysam', 7472) |
+|('htslib', 31694) |('bioconductor-summarizedexperiment', 7439) |('meme', 17082) |('diamond', 3698) |('diamond', 3640) |
+|('samtools', 30559) |('bioconductor-data-packages', 7327) |('last', 14618) |('last', 3489) |('last', 3378) |
+|('meme', 18012) |('snakemake-minimal', 7179) |('bowtie2', 10807) |('sepp', 3262) |('hyphy', 2247) |
+|('bcftools', 16371) |('bioconductor-matrixgenerics', 7102) |('htslib', 6652) |('hyphy', 3108) |('libcifpp', 1789) |
+|('last', 16223) |('star-fusion', 6236) |('diamond', 6263) |('htslib', 2380) |('htslib', 1778) |
+|('bowtie2', 15938) |('snakemake', 5923) |('bcftools', 5692) |('samtools', 1373) |('pybigwig', 1487) |
+|('bedtools', 13486) |('bioconductor-genomeinfodb', 5817) |('samtools', 5152) |('libcifpp', 1190) |('samtools', 1281) |
+|('diamond', 11690) |('perl-json', 5808) |('genenotebook', 4984) |('fasttree', 1076) |('fasttree', 978) |
 # First 10 missing packages in linux-aarch64 by linux-x86_64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| genenotebook | 4487 | 
-| genoboo | 3580 | 
-| unifrac | 744 | 
-| plink2 | 657 | 
-| unifrac-binaries | 644 | 
-| pbtk | 621 | 
-| lima | 459 | 
-| express | 452 | 
-| regenie | 391 | 
-| perl-db-file | 391 | 
+| genenotebook | 4592 | 
+| genoboo | 3655 | 
+| unifrac | 730 | 
+| plink2 | 681 | 
+| pbtk | 670 | 
+| unifrac-binaries | 630 | 
+| lima | 492 | 
+| regenie | 452 | 
+| express | 446 | 
+| bioconductor-h5mread | 404 | 
 # First 10 missing packages in osx-arm64 by osx-64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| genenotebook | 4801 | 
-| genoboo | 3709 | 
-| hatchet | 293 | 
+| genenotebook | 4984 | 
+| genoboo | 3795 | 
+| hatchet | 303 | 
 | fwdpy11 | 288 | 
-| jcvi | 229 | 
-| bioconductor-fraser | 215 | 
-| r-nozzle | 194 | 
-| vcfx | 182 | 
+| bioconductor-fraser | 268 | 
+| jcvi | 230 | 
+| r-nozzle | 206 | 
+| vcfx | 177 | 
+| r-lambda | 176 | 
 | nextgenmap | 174 | 
-| r-lambda | 172 | 
