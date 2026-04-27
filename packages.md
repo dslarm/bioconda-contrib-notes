@@ -2,42 +2,42 @@
 ## last 7 days
 |linux-64 | linux-aarch64 | osx-64 | noarch | osx-arm64 | 
 |-|-|-|-|-|
-|('pysam', 42649) |('pysam', 9106) |('pysam', 29642) |('multiqc', 10566) |('pysam', 7624) |
-|('htslib', 33915) |('diamond', 3742) |('meme', 15264) |('perl-json', 10336) |('diamond', 3591) |
-|('samtools', 33836) |('last', 3501) |('last', 13492) |('perl-list-moreutils', 8705) |('last', 3396) |
-|('meme', 16437) |('hyphy', 3227) |('bowtie2', 9530) |('perl-types-serialiser', 8524) |('pybigwig', 2547) |
-|('bedtools', 15969) |('sepp', 2865) |('htslib', 6609) |('bioconductor-biocgenerics', 8351) |('hyphy', 2517) |
-|('bowtie2', 15351) |('htslib', 2398) |('diamond', 5882) |('snakemake-minimal', 8312) |('htslib', 2403) |
-|('hmmer', 15342) |('libcifpp', 1742) |('bcftools', 5119) |('perl-archive-tar', 8298) |('libcifpp', 1956) |
-|('last', 14911) |('samtools', 1448) |('samtools', 5050) |('perl-io-zlib', 8254) |('samtools', 1832) |
-|('bcftools', 13940) |('lib-pod5', 1274) |('genenotebook', 4425) |('anarci', 6876) |('lib-pod5', 1256) |
+|('pysam', 42508) |('pysam', 9347) |('pysam', 29828) |('multiqc', 10611) |('pysam', 7848) |
+|('samtools', 33549) |('diamond', 3694) |('meme', 15134) |('perl-json', 10233) |('diamond', 3531) |
+|('htslib', 33243) |('last', 3456) |('last', 13307) |('perl-list-moreutils', 8712) |('last', 3338) |
+|('meme', 16184) |('hyphy', 3155) |('bowtie2', 9434) |('perl-types-serialiser', 8532) |('pybigwig', 2531) |
+|('bedtools', 15885) |('sepp', 2827) |('htslib', 6547) |('snakemake-minimal', 8415) |('hyphy', 2470) |
+|('hmmer', 15460) |('htslib', 2376) |('diamond', 5883) |('perl-archive-tar', 8296) |('htslib', 2369) |
+|('bowtie2', 15208) |('libcifpp', 1683) |('bcftools', 5059) |('perl-io-zlib', 8281) |('libcifpp', 1914) |
+|('last', 14756) |('samtools', 1409) |('samtools', 5033) |('bioconductor-biocgenerics', 8201) |('samtools', 1757) |
+|('bcftools', 13571) |('lib-pod5', 1267) |('genenotebook', 4397) |('anarci', 7127) |('lib-pod5', 1241) |
 # First 10 missing packages in linux-aarch64 by linux-x86_64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| genenotebook | 4124 | 
-| genoboo | 3242 | 
-| plink2 | 1465 | 
-| unifrac | 847 | 
-| unifrac-binaries | 742 | 
-| pbtk | 734 | 
-| lima | 565 | 
-| py_nucflag | 518 | 
-| perl-db-file | 473 | 
-| express | 468 | 
+| genenotebook | 4110 | 
+| genoboo | 3289 | 
+| plink2 | 1349 | 
+| unifrac | 852 | 
+| unifrac-binaries | 748 | 
+| pbtk | 743 | 
+| lima | 580 | 
+| express | 541 | 
+| py_nucflag | 513 | 
+| perl-db-file | 478 | 
 # First 10 missing packages in osx-arm64 by osx-64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| genenotebook | 4425 | 
-| genoboo | 3411 | 
-| bioconductor-fraser | 343 | 
-| nextgenmap | 171 | 
-| r-nozzle | 165 | 
-| r-lambda | 158 | 
+| genenotebook | 4397 | 
+| genoboo | 3481 | 
+| bioconductor-fraser | 342 | 
+| nextgenmap | 172 | 
+| r-nozzle | 169 | 
+| r-lambda | 156 | 
 | vcfx | 143 | 
-| pygrgl | 121 | 
-| pybedgraph | 108 | 
-| hatchet | 100 | 
+| pybedgraph | 132 | 
+| pygrgl | 124 | 
+| hatchet | 122 | 
