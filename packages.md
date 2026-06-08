@@ -2,42 +2,42 @@
 ## last 7 days
 |noarch | linux-64 | linux-aarch64 | osx-64 | osx-arm64 | 
 |-|-|-|-|-|
-|('snakemake-minimal', 12679) |('pysam', 27704) |('pysam', 6305) |('pysam', 16566) |('pysam', 5297) |
-|('perl-archive-tar', 10582) |('samtools', 26896) |('htslib', 5558) |('meme', 7946) |('diamond', 2419) |
-|('snakemake', 10497) |('htslib', 26698) |('samtools', 4671) |('last', 6803) |('last', 1664) |
-|('perl-json', 9702) |('bedtools', 12453) |('ncbi-vdb', 4166) |('bowtie2', 4833) |('htslib', 1648) |
-|('snakemake-interface-common', 9014) |('bcftools', 11158) |('star', 4062) |('diamond', 3836) |('hyphy', 1378) |
-|('perl-io-zlib', 8744) |('blast', 10819) |('sra-tools', 3804) |('htslib', 3424) |('samtools', 1353) |
-|('snakemake-interface-executor-plugins', 8658) |('diamond', 10567) |('perl-xml-libxml', 3738) |('samtools', 2882) |('pybigwig', 1315) |
-|('perl-list-moreutils', 8616) |('bowtie2', 9948) |('perl-alien-build', 3611) |('bcftools', 2730) |('libcifpp', 936) |
-|('perl-types-serialiser', 8597) |('hmmer', 9747) |('seqtk', 3451) |('genenotebook', 2315) |('hmmer', 731) |
+|('snakemake-minimal', 13641) |('pysam', 27202) |('htslib', 6687) |('pysam', 16276) |('pysam', 5090) |
+|('snakemake', 11273) |('htslib', 26880) |('pysam', 6086) |('meme', 7766) |('diamond', 2310) |
+|('perl-archive-tar', 10580) |('samtools', 26627) |('samtools', 5586) |('last', 6580) |('htslib', 1672) |
+|('snakemake-interface-common', 9850) |('bedtools', 12429) |('ncbi-vdb', 5237) |('bowtie2', 4737) |('last', 1619) |
+|('perl-json', 9641) |('bcftools', 11133) |('star', 5117) |('diamond', 3734) |('samtools', 1385) |
+|('snakemake-interface-executor-plugins', 9482) |('blast', 10776) |('sra-tools', 4815) |('htslib', 3342) |('hyphy', 1380) |
+|('snakemake-interface-report-plugins', 9353) |('diamond', 10385) |('perl-xml-libxml', 4686) |('samtools', 2829) |('pybigwig', 1292) |
+|('snakemake-interface-storage-plugins', 9295) |('bowtie2', 9725) |('perl-alien-build', 4572) |('bcftools', 2674) |('libcifpp', 924) |
+|('perl-io-zlib', 8702) |('hmmer', 9675) |('seqtk', 4390) |('genenotebook', 2262) |('hmmer', 743) |
 # First 10 missing packages in linux-aarch64 by linux-x86_64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| genenotebook | 2106 | 
-| genoboo | 1671 | 
-| pbtk | 1383 | 
-| plink2 | 1041 | 
-| lima | 1028 | 
-| rgt | 1013 | 
-| unifrac | 744 | 
-| unifrac-binaries | 698 | 
-| regenie | 619 | 
-| perl-db-file | 442 | 
+| genenotebook | 2060 | 
+| rgt | 1913 | 
+| genoboo | 1642 | 
+| pbtk | 1325 | 
+| plink2 | 1028 | 
+| lima | 968 | 
+| unifrac | 738 | 
+| unifrac-binaries | 688 | 
+| regenie | 626 | 
+| perl-db-file | 435 | 
 # First 10 missing packages in osx-arm64 by osx-64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| genenotebook | 2315 | 
-| genoboo | 1832 | 
-| rgt | 1033 | 
+| genenotebook | 2262 | 
+| rgt | 1932 | 
+| genoboo | 1790 | 
 | fwdpy11 | 301 | 
-| jcvi | 260 | 
-| hatchet | 237 | 
-| bioconductor-fraser | 230 | 
+| jcvi | 264 | 
+| hatchet | 234 | 
+| bioconductor-fraser | 225 | 
 | mapcaller | 214 | 
-| parsnp | 170 | 
+| parsnp | 173 | 
 | bioconductor-csaw | 164 | 
