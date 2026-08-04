@@ -1,5 +1,5 @@
-Missing packages: 44 (was 90)
-Incomplete pipelines: 27 (was 41) of 101
+Missing packages: 43 (was 90)
+Incomplete pipelines: 26 (was 41) of 101
 
 PIPELINES SUMMARY:
 
@@ -10,7 +10,6 @@ PIPELINES SUMMARY:
 016_raredisease.yaml : ['bioconda::bwa-meme']
 018_pangenome.yaml : ['bioconda::pggb', 'bioconda::smoothxg']
 020_funcscan.yaml : ['bioconda::amplify', 'bioconda::deeparg', 'bioconda::fargene', 'bioconda::interproscan', 'bioconda::macrel']
-027_bactmap.yaml : ['bioconda::clair3']
 031_circrna.yaml : ['bioconda::find_circ']
 033_epitopeprediction.yaml : ['bioconda::epytope', 'bioconda::mhcnuggets']
 034_rnavar.yaml : ['bioconda::gcnvkernel']
@@ -39,7 +38,6 @@ bioconda::bioconductor-champ : ['099_methylarray.yaml']
 bioconda::bioinfoorphanage-grohmm : ['055_nascent.yaml']
 bioconda::bwa-meme : ['016_raredisease.yaml']
 bioconda::checkm2 : ['003_mag.yaml']
-bioconda::clair3 : ['027_bactmap.yaml']
 bioconda::danpos : ['071_mnaseseq.yaml']
 bioconda::deeparg : ['020_funcscan.yaml']
 bioconda::diamond:2.1.10 : ['045_metatdenovo.yaml']
@@ -77,6 +75,7 @@ conda-forge::tiara : ['003_mag.yaml']
 openms::openms : ['036_proteomicslfq.yaml']
 
 
+* FIXED * bioconda::clair3 : ['027_bactmap.yaml']
 * FIXED * bioconda::pureclip : ['051_clipseq.yaml']
 * FIXED * bioconda::deepbgc : ['020_funcscan.yaml']
 * FIXED * bioconda::dfast : ['023_bacass.yaml']
