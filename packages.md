@@ -2,42 +2,42 @@
 ## last 7 days
 |noarch | linux-64 | osx-64 | linux-aarch64 | osx-arm64 | 
 |-|-|-|-|-|
-|('bioconductor-biocgenerics', 23153) |('pysam', 83161) |('pysam', 58445) |('pysam', 25617) |('pysam', 23495) |
-|('perl-json', 20797) |('htslib', 68479) |('last', 26016) |('diamond', 11537) |('diamond', 11353) |
-|('perl-types-serialiser', 19973) |('samtools', 59715) |('meme', 25968) |('last', 8143) |('last', 7736) |
-|('bioconductor-summarizedexperiment', 19709) |('bcftools', 37027) |('bowtie2', 15946) |('hyphy', 7251) |('htslib', 5891) |
-|('bioconductor-matrixgenerics', 19337) |('meme', 29794) |('diamond', 15144) |('sepp', 5436) |('hyphy', 5494) |
-|('snakemake-minimal', 18486) |('last', 28423) |('htslib', 11128) |('htslib', 5113) |('samtools', 5294) |
-|('perl-archive-tar', 17152) |('bowtie2', 27421) |('pybedtools', 10045) |('salmon', 4751) |('salmon', 5289) |
-|('perl-list-moreutils', 17073) |('diamond', 26319) |('bcftools', 9785) |('samtools', 4064) |('pybigwig', 5181) |
-|('perl-io-zlib', 16014) |('bedtools', 26207) |('samtools', 9511) |('libcifpp', 3014) |('lib-pod5', 4757) |
+|('bioconductor-biocgenerics', 22814) |('pysam', 90062) |('pysam', 64838) |('pysam', 28428) |('pysam', 25945) |
+|('perl-json', 21837) |('htslib', 69450) |('last', 29017) |('diamond', 12836) |('diamond', 12670) |
+|('perl-types-serialiser', 20955) |('samtools', 62709) |('meme', 28899) |('last', 8979) |('last', 8557) |
+|('bioconductor-summarizedexperiment', 19578) |('bcftools', 36865) |('bowtie2', 17678) |('hyphy', 8117) |('htslib', 6130) |
+|('bioconductor-matrixgenerics', 19163) |('meme', 32669) |('diamond', 16869) |('sepp', 6071) |('hyphy', 6072) |
+|('snakemake-minimal', 18846) |('last', 31559) |('htslib', 12267) |('htslib', 5556) |('salmon', 5997) |
+|('perl-archive-tar', 18542) |('bowtie2', 29889) |('pybedtools', 11192) |('salmon', 5312) |('pybigwig', 5726) |
+|('perl-list-moreutils', 18405) |('diamond', 28265) |('bcftools', 10861) |('samtools', 4404) |('samtools', 5516) |
+|('perl-io-zlib', 17350) |('bedtools', 27732) |('samtools', 10460) |('libcifpp', 3317) |('lib-pod5', 5263) |
 # First 10 missing packages in linux-aarch64 by linux-x86_64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| genenotebook | 6758 | 
-| genoboo | 5284 | 
-| pbtk | 4920 | 
-| lima | 3493 | 
-| plink2 | 1732 | 
-| unifrac | 987 | 
-| express | 877 | 
-| unifrac-binaries | 768 | 
-| mentalist | 734 | 
-| bioconductor-fraser | 666 | 
+| genenotebook | 7498 | 
+| genoboo | 5855 | 
+| pbtk | 5066 | 
+| lima | 3594 | 
+| plink2 | 1705 | 
+| unifrac | 976 | 
+| express | 905 | 
+| mentalist | 785 | 
+| unifrac-binaries | 783 | 
+| bioconductor-fraser | 724 | 
 # First 10 missing packages in osx-arm64 by osx-64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| genenotebook | 7463 | 
-| genoboo | 5587 | 
-| bioconductor-fraser | 649 | 
-| fwdpy11 | 342 | 
-| hatchet | 339 | 
-| r-nozzle | 312 | 
-| r-lambda | 309 | 
-| nextgenmap | 304 | 
-| jcvi | 266 | 
-| mapcaller | 191 | 
+| genenotebook | 8259 | 
+| genoboo | 6196 | 
+| bioconductor-fraser | 706 | 
+| r-nozzle | 346 | 
+| r-lambda | 344 | 
+| nextgenmap | 339 | 
+| fwdpy11 | 323 | 
+| hatchet | 316 | 
+| jcvi | 238 | 
+| mapcaller | 189 | 
