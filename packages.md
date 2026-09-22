@@ -2,42 +2,42 @@
 ## last 7 days
 |noarch | linux-64 | osx-64 | linux-aarch64 | osx-arm64 | 
 |-|-|-|-|-|
-|('bioconductor-biocgenerics', 24460) |('pysam', 97212) |('pysam', 70844) |('pysam', 32970) |('pysam', 30075) |
-|('perl-json', 22766) |('samtools', 64334) |('meme', 29967) |('diamond', 13702) |('diamond', 13925) |
-|('perl-types-serialiser', 22070) |('htslib', 63783) |('last', 29206) |('last', 9175) |('last', 8844) |
-|('perl-archive-tar', 20637) |('gcta', 51702) |('bowtie2', 19094) |('hyphy', 8249) |('pybigwig', 7233) |
-|('perl-list-moreutils', 20118) |('bowtie2', 36140) |('diamond', 17724) |('sepp', 6139) |('salmon', 6341) |
-|('perl-io-zlib', 18934) |('meme', 33978) |('htslib', 12621) |('salmon', 5461) |('hyphy', 6179) |
-|('bioconductor-matrixgenerics', 18909) |('last', 32542) |('bcftools', 11031) |('lib-pod5', 5451) |('htslib', 5946) |
-|('bioconductor-summarizedexperiment', 18352) |('diamond', 31917) |('samtools', 10652) |('htslib', 5353) |('samtools', 5482) |
-|('snakemake-minimal', 15318) |('bcftools', 29758) |('pybedtools', 10424) |('samtools', 4249) |('lib-pod5', 5475) |
+|('bioconductor-biocgenerics', 25763) |('pysam', 97541) |('pysam', 71122) |('pysam', 33188) |('pysam', 30065) |
+|('perl-json', 22106) |('samtools', 63838) |('meme', 30130) |('diamond', 13987) |('diamond', 14118) |
+|('perl-types-serialiser', 21369) |('htslib', 63088) |('last', 29287) |('last', 9237) |('last', 8844) |
+|('perl-archive-tar', 20427) |('gcta', 51974) |('bowtie2', 19152) |('hyphy', 8225) |('pybigwig', 7614) |
+|('bioconductor-matrixgenerics', 19943) |('bowtie2', 36118) |('diamond', 17758) |('sepp', 6167) |('salmon', 6406) |
+|('perl-list-moreutils', 19726) |('meme', 33729) |('htslib', 12547) |('lib-pod5', 5483) |('hyphy', 6198) |
+|('bioconductor-summarizedexperiment', 19270) |('last', 32778) |('bcftools', 11055) |('salmon', 5461) |('htslib', 5897) |
+|('perl-io-zlib', 18525) |('diamond', 32743) |('samtools', 10638) |('htslib', 5329) |('lib-pod5', 5471) |
+|('snakemake-minimal', 15460) |('bcftools', 29689) |('pybedtools', 10389) |('snputils', 4323) |('samtools', 5454) |
 # First 10 missing packages in linux-aarch64 by linux-x86_64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| gcta | 51702 | 
-| genenotebook | 7785 | 
-| genoboo | 6054 | 
-| pbtk | 3965 | 
-| lima | 2801 | 
-| plink2 | 1976 | 
-| bioconductor-fraser | 1474 | 
-| unifrac-binaries | 1277 | 
-| sativa-epang | 1239 | 
-| mentalist | 800 | 
+| gcta | 51974 | 
+| genenotebook | 7796 | 
+| genoboo | 6087 | 
+| pbtk | 3994 | 
+| lima | 2838 | 
+| plink2 | 1938 | 
+| bioconductor-fraser | 1433 | 
+| sativa-epang | 1331 | 
+| unifrac-binaries | 1252 | 
+| mentalist | 802 | 
 # First 10 missing packages in osx-arm64 by osx-64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| genenotebook | 8522 | 
-| genoboo | 6390 | 
-| bioconductor-fraser | 1421 | 
-| bioconductor-gsva | 779 | 
-| bioconductor-msnid | 768 | 
-| bioconductor-saigegds | 755 | 
-| bioconductor-outrider | 738 | 
-| bioconductor-rfastp | 737 | 
-| bioconductor-gbscleanr | 719 | 
-| txnova | 696 | 
+| genenotebook | 8521 | 
+| genoboo | 6397 | 
+| bioconductor-fraser | 1406 | 
+| bioconductor-gsva | 761 | 
+| bioconductor-msnid | 749 | 
+| bioconductor-saigegds | 744 | 
+| bioconductor-outrider | 724 | 
+| bioconductor-rfastp | 722 | 
+| bioconductor-gbscleanr | 704 | 
+| taxutils-rs | 691 | 
