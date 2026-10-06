@@ -2,42 +2,42 @@
 ## last 7 days
 |linux-64 | osx-64 | noarch | linux-aarch64 | osx-arm64 | 
 |-|-|-|-|-|
-|('pysam', 88003) |('pysam', 58548) |('bioconductor-biocgenerics', 46056) |('pysam', 27824) |('pysam', 24524) |
-|('htslib', 83902) |('meme', 24844) |('bioconductor-matrixgenerics', 38214) |('diamond', 12244) |('diamond', 12361) |
-|('samtools', 72501) |('last', 24378) |('bioconductor-summarizedexperiment', 38091) |('last', 7649) |('last', 7341) |
-|('gcta', 52763) |('bowtie2', 15696) |('bioconductor-annotationdbi', 30276) |('hyphy', 7019) |('pybigwig', 6998) |
-|('bioconductor-s4vectors', 45256) |('diamond', 14615) |('bioconductor-keggrest', 28754) |('htslib', 5291) |('salmon', 5832) |
-|('bcftools', 44684) |('htslib', 10553) |('perl-json', 28058) |('salmon', 5209) |('dotmatch', 5765) |
-|('bioconductor-iranges', 43558) |('bcftools', 9335) |('bioconductor-seqinfo', 27732) |('sepp', 5095) |('htslib', 5381) |
-|('bioconductor-xvector', 42556) |('samtools', 9174) |('perl-types-serialiser', 27373) |('lib-pod5', 4722) |('hyphy', 5164) |
-|('bioconductor-genomicranges', 40045) |('pybedtools', 8434) |('perl-list-moreutils', 24397) |('taxutils', 4516) |('samtools', 4979) |
+|('pysam', 85236) |('pysam', 58198) |('bioconductor-biocgenerics', 47998) |('pysam', 27641) |('pysam', 24109) |
+|('htslib', 80068) |('meme', 24646) |('bioconductor-matrixgenerics', 40561) |('diamond', 12116) |('diamond', 12235) |
+|('samtools', 69141) |('last', 23899) |('bioconductor-summarizedexperiment', 40334) |('last', 7578) |('last', 7190) |
+|('gcta', 56217) |('bowtie2', 15405) |('bioconductor-annotationdbi', 31644) |('hyphy', 6877) |('pybigwig', 6728) |
+|('bioconductor-s4vectors', 46757) |('diamond', 14433) |('bioconductor-seqinfo', 31441) |('htslib', 5292) |('salmon', 5732) |
+|('bioconductor-iranges', 45095) |('htslib', 10379) |('bioconductor-keggrest', 31097) |('salmon', 5118) |('dotmatch', 5481) |
+|('bioconductor-xvector', 44463) |('bcftools', 9320) |('perl-json', 26888) |('sepp', 4992) |('htslib', 5461) |
+|('bcftools', 42597) |('samtools', 9044) |('bioconductor-biocio', 26740) |('lib-pod5', 4773) |('samtools', 5120) |
+|('bioconductor-genomicranges', 41729) |('pybedtools', 8346) |('perl-types-serialiser', 26224) |('samtools', 4104) |('hyphy', 5100) |
 # First 10 missing packages in linux-aarch64 by linux-x86_64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| gcta | 52763 | 
-| bioconductor-birewire | 16430 | 
-| genenotebook | 6369 | 
-| genoboo | 4982 | 
-| pie | 4031 | 
-| pbtk | 2631 | 
-| trident | 2295 | 
-| sativa-epang | 2094 | 
-| lima | 1896 | 
-| polars-bio | 1690 | 
+| gcta | 56217 | 
+| bioconductor-birewire | 20715 | 
+| genenotebook | 6280 | 
+| genoboo | 4926 | 
+| pie | 3805 | 
+| pbtk | 2440 | 
+| trident | 1986 | 
+| sativa-epang | 1890 | 
+| lima | 1748 | 
+| polars-bio | 1482 | 
 # First 10 missing packages in osx-arm64 by osx-64 rank
 ## last 7 days
 
 | Package | Downloads |
 | - | - |
-| genenotebook | 6995 | 
-| genoboo | 5247 | 
-| pie | 3996 | 
-| trident | 2249 | 
-| bioconductor-fraser | 1149 | 
-| tdkc | 1123 | 
-| txnova | 1116 | 
-| pygrgl | 942 | 
-| bioconductor-gsva | 621 | 
-| bioconductor-msnid | 611 | 
+| genenotebook | 6870 | 
+| genoboo | 5163 | 
+| pie | 3764 | 
+| trident | 1954 | 
+| bioconductor-fraser | 1124 | 
+| pygrgl | 1002 | 
+| tdkc | 977 | 
+| txnova | 972 | 
+| gatk4-lite | 634 | 
+| bioconductor-gsva | 542 | 
